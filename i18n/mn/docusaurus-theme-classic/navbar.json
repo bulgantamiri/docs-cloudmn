@@ -1,0 +1,14 @@
+{
+  "item.label.Storage API": {
+    "message": "Storage API",
+    "description": "Navbar item with label Storage API"
+  },
+  "item.label.Try": {
+    "message": "Турших",
+    "description": "Navbar item with label Try"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}
