@@ -3,6 +3,10 @@
     "message": "Дараагийн",
     "description": "The label for version current"
   },
+  "sidebar.tutorialSidebar.category.Тойм": {
+    "message": "Тойм",
+    "description": "The label for category Overview in sidebar docs"
+  },
   "sidebar.tutorialSidebar.category.Гарын авлага": {
     "message": "Гарын авлага",
     "description": "The label for category Гарын авлага in sidebar tutorialSidebar"

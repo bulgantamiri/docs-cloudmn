@@ -7,6 +7,10 @@
     "message": "Documentation",
     "description": "The label for category Гарын авлага in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Тойм": {
+    "message": "Overview",
+    "description": "The label for category Overview in sidebar docs"
+  },
   "sidebar.tutorialSidebar.category.Гарын авлага.link.generated-index.description": {
     "message": "5 minutes to learn the most important Docusaurus concepts.",
     "description": "The generated-index page description for category Гарын авлага in sidebar tutorialSidebar"
