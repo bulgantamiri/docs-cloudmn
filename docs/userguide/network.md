@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Сүлжээ (Network)
+# Сүлжээ
 
 ## Сүлжээ
 
