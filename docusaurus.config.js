@@ -29,7 +29,7 @@ const config = {
         label: 'Монгол',
       },
       en: {
-        label: 'English'
+        htmlLang: 'en-GB'
       },
       // You can omit a locale (e.g. fr) if you don't need to override the defaults
     },
