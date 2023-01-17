@@ -3,9 +3,9 @@ sidebar_position: 1
 slug: /
 ---
 
-# Overview
+# Getting Started
 
-### Getting Started
+### Overview
 
 ### Documentation
 
