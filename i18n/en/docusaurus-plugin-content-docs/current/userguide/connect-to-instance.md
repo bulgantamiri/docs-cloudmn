@@ -106,31 +106,29 @@ ssh user_name@public_ip
 
 <hr></hr>
 
-### Windows Server үйлдлийн систем бүхий серверлүү Remote Desktop Connection (RDP)-р холбогдох
+### Connect to an Instance with a Windows Server operating system via Remote Desktop Connection(RDP)
 
-:::caution Анхааруулга
-Та RDP-р холбогдохын тулд тухайн серверийн холбосон Портын тохиргоо дээр RDP порт буюу 3389 port-г нээх шаардлагатай. Портын тохиргоо хэсгээс дэлгэрнгүйг уншина уу.
-:::
+>To connect via RDP, you need to open the RDP port or port 3389 on the Security Group that the Instance is connected to. For related information, see Security Groups, Security Group Role Managing.
 
 <ol>
-    <li>Та Windows Server-тэй сервер асаамагц юун түрүүнд заавал Web Console-р холбогдоно. Системийн хамгийн анхны хэрэглэгчийн хэрэглэгчийн нэр, нууц үгийг тохируулж өгөх шаардлагатай.</li>
-    <li>Windows server лүү холбогдох гэж буй client-с Remote Desktop Connection нээх.</li>
+    <li>When you launch an instance of Windows Server, the first thing you need to do is connect to the Web Console. It is necessary to set the Username and Password of the first user of the system.</li>
+    <li>Open Remote Desktop Connection from the client trying to connect to the Windows server.</li>
 </ol>
 
   ![RDP](./img/connect-to-instance/Instance-windows-connection.png)
 
 <ol start='3'>
-    <li>Computer талбарт серверийн Public IP хаягыг оруулж өгөх.</li>
+    <li>Enter the Public IP address of the Instance in the Computer field.</li>
 </ol>
 
   ![RDP-2](./img/connect-to-instance/Instance-windows-connection1.png)
 
 <ol start='4'>
-    <li>Connect хийхэд холбогдох хэрэглэгчийн credentials асуух бөгөөд эхний алхам дээр тохируулсан хэрэглэгчийн нэр болон нууц үгийг ашиглан нэвтэрнэ.</li>
+    <li>Connect will ask for user credentials and log in using the Username and Password set in the first step.</li>
 </ol>
 
   ![RDP-2](./img/connect-to-instance/Instance-windows-connection2.png)
 
 <ol start='5'>
-    <li>Хэрвээ Credssp-тэй холбоотой алдаа гарах тохиолдолд. <a href="https://www.youtube.com/watch?v=Mp9vPS4Efto">How to Fix Credssp Encryption Oracle Remediation Error | Remote Desktop Connection</a> энэхүү заавар хэрэг болно.</li>
+    <li>If there is an error related to Credssp, this guide <a href="https://www.youtube.com/watch?v=Mp9vPS4Efto">How to Fix Credssp Encryption Oracle Remediation Error | Remote Desktop Connection</a> will be useful.</li>
 </ol>
