@@ -15,41 +15,37 @@ sidebar_position: 3
   ![Volume-1](./img/volume/Volume-1.png)
 
 <ol start='2'>
-    <li><b>Үүсгэх</b> товчийг дарах үед дараах цонх нээгдэнэ.</li>
+    <li>When you click the <b>Create Volume</b> button, the following window will open.</li>
 </ol>
 
   ![Volume-2](./img/volume/Volume-2.png)
 
 <ol start='3'>
-    <li>Мэдээллийг бөглөх</li>
+    <li>Fill in the information</li>
 </ol>
 
 <ul>
-    <li><b>Нэр</b> хэсэгт виртуал диск-н нэрийг бичнэ.</li>
-    <li><b>Төрөл</b> хэсэгт виртуал диск-н төрлийн сонгоно.</li>
-    <li><b>Хэмжээ</b> хэсэгт виртуал диск-н багтаамжийг сонгох ба хамгийн багадаа 10GB байна.</li>
-    <li><b>Дэлгэрэнгүй</b> хэсэгт виртуал диск-н тайлбарыг бичих боломжтой.</li>
+    <li>In the <b>Name</b> field, write the name of the virtual disk.</li>
+    <li>In the <b>Type</b> section, select the type of virtual disk.</li>
+    <li>In the <b>Size</b> section, select the capacity of the virtual disk, at least 15GB.</li>
+    <li>In the <b>Description</b> section, you can write a description of the virtual disk.</li>
 </ul>
 
-Дараах хэсгүүдийг бөглөөд **Үүсгэх** товчийг дарснаар виртуал диск үүсгэх процесс эхлэнэ.
+Complete the following sections and click the **Create** button to begin the virtual disk creation process.
 
   ![Volume-3](./img/volume/Volume-3.png)
 
-Хэсэг хугацааны дараа виртуал диск амжилттай үүснэ.
+After some time, the virtual disk will be successfully created.
 
   ![Volume-4](./img/volume/Volume-4.png)
 
-:::caution Анхааруулга
-Хэрэглэгч бүр системээс зөвшөөрөгдсөн Дисктийн дээд хэмжээ гэж байдаг тул их хэмжээтэй диск үүсгэх боломжгүй. Дэлгэрэнгүй мэдээллийг <a href="./instance#серверийг-унтраах-shutdown">Том хэмжээний сервер үүсгэх тохиолдолд яах вэ?</a> эндээс авна уу.
-:::
+>Because there is a maximum Volume size allowed by the system for each user, it is not possible to create an excessively large volume. More information <a href="./instance#серверийг-унтраах-shutdown">What to do when creating a large server?</a> from the section.
 
 <hr></hr>
 
-### Виртуал дискний багтаамж нэмэх
+### Add virtual disk capacity
 
-:::caution Анхааруулга
-Хэрвээ тухайн виртуал диск ямар нэг серверт харьяалагдаж байвал багтаамж нэмэхийн тулд та тухайн серверийг <a href="">унтраасан</a> байх шаардлагатай.
-:::
+>If the virtual disk belongs to an Instance, you need to <a href="">shut down</a> the Instance to add capacity.
 
 <ol>
     <li>Виртуал дискээ сонгоно.</li>
