@@ -49,10 +49,7 @@ For simplicity, the instances will be referred to as a server in this guide.</li
 ### Connect to Instance using Keypair
 
 > Анхааруулга!
-> Attention! Public IP address is essential to access Instance from Remote or Web Console, see the following document about it! <a href="./instance#ip-хаяг-удирдах-interface-manage">Add a Public</a> IP address to the Instance (Attach Interface), and if the Instance is created in a Private Network, add a Floating IP address to the Instance (Associate Floating IP). Note that if the SSH port of the Instance is not opened, it will not be possible to connect! It is necessary to open an SSH port on the Security Group or virtual firewall, see the next section - Opening an SSH Port and Adding a Security Group to the Instance.
-
-:::caution Анхааруулга :::
-Remote буюу Web Console-с өөр газраас серверлүү хандахад Public IP хаяг зайлшгүй хэрэгтэй бөгөөд үүний тухай дараах бичиг баримтаас үзнэ үү <a href="./instance#ip-хаяг-удирдах-interface-manage">Серверт Public IP хаяг нэмэх</a>, Серверээ Private сүлжээтэй үүсгэсэн бол <a href="./instance#серверт-floating-ip-хаяг-холбох-associate-floating-ip">Серверт тогтмол хаяг нэмэх</a>. Хэрвээ тухайн серверийн портын тохиргоо дээр SSH port нээгээгүй байвал холбогдох боломжгүйг анхаарна уу! Портын тохиргоо буюу виртуал галт хана дээр SSH port нээх шаардлагатай байдаг ба дараахаас харна уу <a href="./security">SSH Port нээх, Серверт портын тохиргоо нэмэх</a>.
+> Attention! Public IP address is essential to access Instance from Remote or Web Console, see the following document about it! <a href="./instance#ip-хаяг-удирдах-interface-manage">Add a Public IP address</a> to the Instance (Attach Interface), and if the Instance is created in a Private Network, add a Floating IP address to the Instance <a href="./instance#серверт-floating-ip-хаяг-холбох-associate-floating-ip">(Associate Floating IP)</a>. Note that if the SSH port of the Instance is not opened, it will not be possible to connect! It is necessary to open an SSH port on the Security Group or virtual firewall, see the next section - Opening an <a href="./security">SSH Port and Adding a Security Group to the Instance</a>.
 
 <ol>
     <li>Сервер үүсгэхдээ Хандах эрх хэсэг SSH түлхүүр хэмээх сонголтыг бөглөж, өөрийн үүсгэхэд SSH түлхүүр-үүдээс сонгож тухайн сервер дээр уяж өгнө.</li>
