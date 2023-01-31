@@ -36,8 +36,8 @@ For simplicity, the instances will be referred to as a server in this guide.</li
   ![Connect instance-3](./img/connect-to-instance/Connect-instance-3.png)
 
 <ol start='3'>
-    <li>Өөрийн үүсгэсэн SSH түлхүүрийг ашиглах. Оруулах товчин дээр дарснаар нэр болон public key оруулах хэсэг гарч ирнэ.</li>
-    <li>SSH-keygen хэрхэн generate хийх заавар мөн гарч ирнэ.</li>
+    <li>Use the keypair you created. Click the enter button and a field will appear where you can enter the name and public key.</li>
+    <li>Instructions on how to generate SSH-keygen will also appear.</li>
 </ol>
 
   ![Connect instance-4](./img/connect-to-instance/Connect-instance-4.png)
@@ -46,7 +46,7 @@ For simplicity, the instances will be referred to as a server in this guide.</li
 
 ## Remote connection to Instance
 
-### SSH түлхүүр ашиглан Сервертэй холбогдох
+### Connect to Instance using Keypair
 
 :::caution Анхааруулга
 Remote буюу Web Console-с өөр газраас серверлүү хандахад Public IP хаяг зайлшгүй хэрэгтэй бөгөөд үүний тухай дараах бичиг баримтаас үзнэ үү <a href="./instance#ip-хаяг-удирдах-interface-manage">Серверт Public IP хаяг нэмэх</a>, Серверээ Private сүлжээтэй үүсгэсэн бол <a href="./instance#серверт-floating-ip-хаяг-холбох-associate-floating-ip">Серверт тогтмол хаяг нэмэх</a>. Хэрвээ тухайн серверийн портын тохиргоо дээр SSH port нээгээгүй байвал холбогдох боломжгүйг анхаарна уу! Портын тохиргоо буюу виртуал галт хана дээр SSH port нээх шаардлагатай байдаг ба дараахаас харна уу <a href="./security">SSH Port нээх, Серверт портын тохиргоо нэмэх</a>.
