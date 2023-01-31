@@ -60,8 +60,7 @@ For simplicity, the instances will be referred to as a server in this guide.</li
 chmod 400 .\NAME.pem
 ssh -i .\NAME.pem IMAGETYPE@IP
 ```
-
-Жишээ нь таны Ubuntu үйлдлийн систем бүхий сервер 202.131.1.110 IP хаяг дээр ажиллаж байх тохиолдолд
+For example, if your Instance with Ubuntu operating system is running at IP address 202.131.1.110
 
 > When connecting to an Instance from an Ubuntu system, the .pem file requires only read permission, so you need to run the chmod 400 command.
 
@@ -74,11 +73,10 @@ ssh -i .\NAME.pem ubuntu@202.131.1.110
 
 <hr></hr>
 
-### Хэрэглэгчийн нэр, нууц үг ашиглан нэвтрэх
+### Login with username and password
 
-:::tip Зөвлөгөө
-Хэрвээ хэрэглэгчийн нэр, нууц үг ашиглаж нэвтрэхэд Web Console ба SSH гэх хоёр төрлөөр нэвтрэх боломжтой.
-:::
+> [!Tip] Tips
+> If you log in using Username & Password, there are two ways to log in: Web Console and SSH.
 
 #### Web Console-р нэвтрэх
 
