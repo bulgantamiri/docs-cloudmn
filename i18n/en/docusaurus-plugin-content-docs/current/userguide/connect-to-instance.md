@@ -75,7 +75,7 @@ ssh -i .\NAME.pem ubuntu@202.131.1.110
 
 ### Login with username and password
 
-> [!Tip] Tips
+> **Tip**
 > If you log in using Username & Password, there are two ways to log in: Web Console and SSH.
 
 #### Web Console-р нэвтрэх
