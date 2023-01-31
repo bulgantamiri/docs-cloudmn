@@ -6,11 +6,11 @@ sidebar_position: 2
 
 For simplicity, the instances will be referred to as a server in this guide.</li>
 
-## Консол ашиглан сервертэй холбогдох
+## Create server (Create)
 
 <ol>
-    <li><b>Виртуал сервер</b> цэсээс <b>Сервер</b> цэс рүү орно.</li>
-    <li><b>Холбогдох</b> гэсэн товч дээр дарна.</li>
+    <li>Enter the <b>Server</b> menu in the <b>"Virtual Server"</b>.</li>
+    <li>Click the <b>Connect</b> button.</li>
     <li>Талбарт холбогдох тайлбар болон веб консолруу шууд холбогдох мэдээлэл гарч ирнэ.</li>
     <li><b>Веб консолтой холбогдох</b> товч дээр дарснаар шинэ browser tab нээгдэж шууд сервер рүү хандах боломжтой болно</li>
 </ol>
