@@ -76,11 +76,11 @@ ssh -i .\NAME.pem ubuntu@202.131.1.110
 
 > If you log in using Username & Password, there are two ways to log in: Web Console and SSH.
 
-#### Web Console-р нэвтрэх
+#### Log in with the Web Console
 
 <ol>
-    <li>Сервер цэсрүү ороод холбогдох гэж буй серверийн ард байрлах <b>Холбогдох</b> товчийг дарна. Энэ нь сервер лүү холбогдоход хамгийн амархан арга бөгөөд copy болон paste үйлдэл хийгдэх боломжгүйг анхаарна уу!!!</li>
-    <li>Дараах цонх нээгдэх ба сервер үүсгэхдээ <b>Хандах эрх</b> хэсэгт бичсэн хэрэглэгчийн нэр, нууц үгийг ашиглаж нэвтрэнэ.</li>
+    <li>Enter the Instance menu and click the Web Console button of the Instance you want to <b>connect</b> to. Note that this is the easiest way to connect to the Instance and do not copy and paste from the clipboard during this process.</li>
+    <li>The following window will open and enter the Username & Password written in the <b>Authentication</b> section when creating the Instance.</li>
 </ol>
 
   ![connection](./img/connect-to-instance/connection.png)
