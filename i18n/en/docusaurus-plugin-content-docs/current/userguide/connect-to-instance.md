@@ -48,7 +48,6 @@ For simplicity, the instances will be referred to as a server in this guide.</li
 
 ### Connect to Instance using Keypair
 
-> Анхааруулга!
 > Attention! Public IP address is essential to access Instance from Remote or Web Console, see the following document about it! <a href="./instance#ip-хаяг-удирдах-interface-manage">Add a Public IP address</a> to the Instance (Attach Interface), and if the Instance is created in a Private Network, add a Floating IP address to the Instance <a href="./instance#серверт-floating-ip-хаяг-холбох-associate-floating-ip">(Associate Floating IP)</a>. Note that if the SSH port of the Instance is not opened, it will not be possible to connect! It is necessary to open an SSH port on the Security Group or virtual firewall, see the next section - Opening an <a href="./security">SSH Port and Adding a Security Group to the Instance</a>.
 
 <ol>
@@ -75,7 +74,6 @@ ssh -i .\NAME.pem ubuntu@202.131.1.110
 
 ### Login with username and password
 
-> **Tip**
 > If you log in using Username & Password, there are two ways to log in: Web Console and SSH.
 
 #### Web Console-р нэвтрэх
