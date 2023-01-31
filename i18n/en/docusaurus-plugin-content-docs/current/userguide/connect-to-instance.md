@@ -52,8 +52,8 @@ For simplicity, the instances will be referred to as a server in this guide.</li
 > Attention! Public IP address is essential to access Instance from Remote or Web Console, see the following document about it! <a href="./instance#ip-хаяг-удирдах-interface-manage">Add a Public IP address</a> to the Instance (Attach Interface), and if the Instance is created in a Private Network, add a Floating IP address to the Instance <a href="./instance#серверт-floating-ip-хаяг-холбох-associate-floating-ip">(Associate Floating IP)</a>. Note that if the SSH port of the Instance is not opened, it will not be possible to connect! It is necessary to open an SSH port on the Security Group or virtual firewall, see the next section - Opening an <a href="./security">SSH Port and Adding a Security Group to the Instance</a>.
 
 <ol>
-    <li>Сервер үүсгэхдээ Хандах эрх хэсэг SSH түлхүүр хэмээх сонголтыг бөглөж, өөрийн үүсгэхэд SSH түлхүүр-үүдээс сонгож тухайн сервер дээр уяж өгнө.</li>
-    <li>Өөрийн РС дээр хадгалагдсан SSH түлхүүр-н private key file (.pem file) байгаа directory дээр очиж command shell нээгээд дараах командыг бичнэ.</li>
+    <li>When creating an Instance, fill in the Keypair option in the Authentication section, choose from the Keypairs you have created, and bind it to the Instance.</li>
+    <li>Go to the directory where the Keypair private key file (.pem file) stored on your PC is located and open a command shell and type the following command.</li>
 </ol>
 
 ```bash
@@ -63,9 +63,7 @@ ssh -i .\NAME.pem IMAGETYPE@IP
 
 Жишээ нь таны Ubuntu үйлдлийн систем бүхий сервер 202.131.1.110 IP хаяг дээр ажиллаж байх тохиолдолд
 
-:::caution Анхааруулга
-Ubuntu системээс серверлүү холбогдох үед тухайн .pem файл зөвхөн read permission-тэй байхыг шаарддаг тул chmod 400 командыг ажиллуулах шаардлагатай.
-:::
+> When connecting to an Instance from an Ubuntu system, the .pem file requires only read permission, so you need to run the chmod 400 command.
 
 ```bash
 chmod 400 .\NAME.pem
