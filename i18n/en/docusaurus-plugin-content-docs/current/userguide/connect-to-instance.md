@@ -24,13 +24,13 @@ For simplicity, the instances will be referred to as a server in this guide.</li
 ### Create a keypair
 
 <ol>
-    <li>A Keypair can be created when an instance is created. Also click the <b>Create Key Pair</b> button from the <b>Keypair menu</b>.</li>
+    <li>A Keypair can be created when an instance is created. Also click the <b>Create Key Pair</b> button from the <b>Key pairs menu</b>.</li>
 </ol>
 
   ![Connect instance-2](./img/connect-to-instance/Connect-instance-2.png)
 
 <ol start='2'>
-    <li>Үүсгэх гэж буй SSH түлхүүрийн нэрийг бичээд <b>Үүсгэх</b> товчийг дарснаар SSH түлхүүр үүсэх ба таны browser-д .pem файл татагдах болно.</li>
+    <li>Type the name of the Keypair you want to create and click <b>Create</b>. The keypair will then be generated and the .pem file will be downloaded to your browser.</li>
 </ol>
 
   ![Connect instance-3](./img/connect-to-instance/Connect-instance-3.png)
