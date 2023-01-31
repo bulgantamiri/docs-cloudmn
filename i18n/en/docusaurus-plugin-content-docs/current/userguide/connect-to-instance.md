@@ -11,20 +11,20 @@ For simplicity, the instances will be referred to as a server in this guide.</li
 <ol>
     <li>Enter the <b>Server</b> menu in the <b>"Virtual Server"</b>.</li>
     <li>Click the <b>Connect</b> button.</li>
-    <li>Талбарт холбогдох тайлбар болон веб консолруу шууд холбогдох мэдээлэл гарч ирнэ.</li>
-    <li><b>Веб консолтой холбогдох</b> товч дээр дарснаар шинэ browser tab нээгдэж шууд сервер рүү хандах боломжтой болно</li>
+    <li>Fields will display relevant information and direct links to the web console.</li>
+    <li>By clicking on it, a new browser tab will open and you can directly access the server.</li>
 </ol>
 
   ![Connect instance](./img/connect-to-instance/Connect-instance.png)
 
 <hr></hr>
 
-## Гаднаас сервертэй холбогдох
+## Connecting to an external server
 
-### SSH түлхүүр үүсгэх
+### Create a keypair
 
 <ol>
-    <li>Сервер үүсгэх үед SSH түлхүүр үүсгэх боломжтой байдаг. Мөн <b>Виртуал сервер</b> цэсийн <b>SSH түлхүүр</b> цэс рүү орж <b>Үүсгэх</b> товчийг дарна.</li>
+    <li>A Keypair can be created when an instance is created. Also click the <b>Create Key Pair</b> button from the <b>Keypair menu</b>.</li>
 </ol>
 
   ![Connect instance-2](./img/connect-to-instance/Connect-instance-2.png)
