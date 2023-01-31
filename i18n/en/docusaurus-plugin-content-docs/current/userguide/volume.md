@@ -48,61 +48,61 @@ After some time, the virtual disk will be successfully created.
 >If the virtual disk belongs to an Instance, you need to <a href="">shut down</a> the Instance to add capacity.
 
 <ol>
-    <li>Виртуал дискээ сонгоно.</li>
+    <li>Select your virtual disk.</li>
 </ol>
 
   ![Volume-5](./img/volume/Volume-5.png)
 
 <ol start='2'>
-    <li>Өргөтгөх товчийг дарахад дараах цонх нээгдэнэ. Виртуал дискийн одоогийн хэмжээ харагдах ба тухайн хэмжээг багасгах боломжгүй, зөвхөн ихэсгэх л боломжтой. Шинэ хэмжээ хэсэгт шинэ хэмжээг оруулан Өргөтгөх товчийг дарна.</li>
+    <li>Click the Resize button and the following window will open. The current size of the virtual disk is displayed and the size cannot be reduced, only increased. Enter the new volume in the New Volume Size field and click the Resize button.</li>
 </ol>
 
   ![Volume-6](./img/volume/Volume-6.png)
 
 <ol start='3'>
-    <li>Өргөтгөх товчийг дарсны дараа багтаамжийг ихэсгэх процесс эхэлнэ.</li>
+    <li>After clicking the Resize button, the process of increasing the capacity will begin.</li>
 </ol>
 
   ![Volume-7](./img/volume/Volume-7.png)
 
 <ol start='4'>
-    <li>Багтаамж ихэсгэх процесс дуусмагц виртуал дискийн багтаамж амжилттай ихэссэн байх болно.</li>
+    <li>When the increased capacity process is completed, the capacity of the virtual disk will be increased successfully</li>
 </ol>
 
   ![Volume-8](./img/volume/Volume-8.png)
 
 <ol start='5'>
-    <li>Виртуал дискийн хэмжээ ихэссэн хэдий ч үйлдлийн систем дээр оруулж ирэхэд серверийг унтрааж асаах болон Диск удирдах нэмэлт үйлдлүүд хийх шаардлагатай. Үйлдлийн систем тус бүр дээр өөр өөр заавраар хийгддэгийг анхаарна уу.</li>
+    <li>Although the size of the virtual disk has increased, when it is imported into the operating system, it is necessary to restart the server and perform additional operations of Disk Management. Note that this is done with different instructions on each operating system.</li>
 </ol>
 
 <hr></hr>
 
-### Виртуал дискийг устгах
+### Delete virtual disk
 
 <ol start='1'>
-    <li>Виртуал дискийг устгахдаа эхлээд устгах гэж буй дискийн Үйлдэл баганад буй улаан товчийг дарах эсвэл дискээ сонгоод Диск устгах товчийг дарна.</li>
+    <li>When deleting a virtual disk, first click the red button in the Action column of the disk you want to delete, or select the disk and click the Delete Volume button.</li>
 </ol>
 
   ![Volume-9](./img/volume/Volume-9.png)
 
 <ol start='2'>
-    <li>Улаан товчийг дарсны дараа дараах цонх нээгдэх ба баталгаажуулах үйлдэл хийж Delete товчийг дарна.</li>
+    <li>After pressing the red button, the following window will open, confirm and click the <b>Delete</b> button.</li>
 </ol>
 
   ![Volume-10](./img/volume/Volume-10.png)
 
 <ol start='3'>
-    <li>Хэсэг хугацааны дараа виртуал диск устсан байх болно.</li>
+    <li>After some time, the virtual disk will be deleted.</li>
 </ol>
 
 <hr></hr>
 
-### Виртуал дискийн хуулбарыг хадгалах (Snapshot)
+### Save Volume Snapshot (Snapshot)
 
 <ol>
-    <li>Виртуал сервер цэсний Диск цэсрүү орно.</li>
-    <li>Хуулбар хийх дискийг сонгож Хуулбар товчийг дарна. Ингэснээр шинэ диалог цонх гарч ирнэ.</li>
-    <li>Нэр талбар дээр тухайн Хуулбарын нэрийг бичээд Хуулбар товчийг дарах.</li>
+    <li>Enter the Volumes menu in the Storage menu.</li>
+    <li>Snapshot Click the <b>Snapshot</b> button in the Action bar of the Volume. This will bring up a new dialog box.</li>
+    <li>In the Snapshot <b>Name</b> field, type the name of the Snapshot and click the <b>Save</b> button.</li>
 </ol>
 
   ![Volume-11](./img/volume/Volume-11.png)
