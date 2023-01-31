@@ -86,22 +86,22 @@ ssh -i .\NAME.pem ubuntu@202.131.1.110
   ![connection](./img/connect-to-instance/connection.png)
 
 <ol start='3'>
-    <li>Хэрэглэгчийн нэр, нууц үгийг зөв оруулсны дараа сервер лүү холбогдоно.</li>
+    <li>After entering the Username & Password correctly, you will be connected to the Instance.</li>
 </ol>
 
   ![success](./img/connect-to-instance/success.png)
 
-#### SSH аргаар нэвтрэх
+#### Login via SSH
 <ol>
-    <li>Сервер үүсгэхдээ <b>Хандах эрх</b> талбарыг Нууц үг гэж сонгоод өөрийн ашиглах хэрэглэгчийн нэр, нууц үгийг оруулж өгөх.</li>
-    <li>Сервер рүүгээ SSH-р холбогдохдоо shell эсвэл terminal дээр ээ доорх командыг ажиллуулна.</li>
+    <li>When creating an instance, select Password in the <b>Authentication</b> field and enter your username and password.</li>
+    <li>When connecting to your instance via SSH, run the command below in a shell or terminal.</li>
 </ol>
 
 ```bash
 ssh user_name@public_ip
 ```
 <ol start='3'>
-    <li>Тохируулсан нууц үгийг оруулж SSH-р амжилттай нэвтэрнэ.</li>
+    <li>Enter the configured password. Login successfully via SSH.</li>
 </ol>
 
 <hr></hr>
