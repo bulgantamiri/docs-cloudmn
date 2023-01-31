@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Connecting to the server (Instance)
 
-For simplicity, the instances will be referred to as a server in this guide.</li>
+For simplicity, the instances will be referred to as a server in this guide.
 
 ## Create server (Create)
 
