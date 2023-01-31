@@ -4,12 +4,12 @@ sidebar_position: 3
 
 # Disk (Volume)
 
-## Диск цэсний үйлдлүүд
+## Volume menu operations
 
-### Виртуал диск үүсгэх
+### Create a virtual disk
 
 <ol>
-    <li>Volume буюу виртуал дискийг үүсгэхдээ <b>Виртуал сервер</b> цэсээс <b>Диск</b> цэсийг сонгож орно.</li>
+    <li>When creating a volume or virtual disk, select the <b>Volume</b> menu.</li>
 </ol>
 
   ![Volume-1](./img/volume/Volume-1.png)
