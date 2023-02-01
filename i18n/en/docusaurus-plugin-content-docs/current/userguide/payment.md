@@ -4,7 +4,7 @@ sidebar_position: 13
 
 # Payment
 
-  ![Payment-1](./img/payment/Payment-1.png)
+  ![en-Payment-1](./img/payment/en-Payment-1.png)
 
 ### Төлбөрийн мэдээлэл
 
@@ -18,8 +18,8 @@ sidebar_position: 13
     <li><b>Нэхэмжлэлийн түүх</b> талбар дээр таны өмнөх саруудын төлсөн төлбөрийн хураангуй мэдээлэл гарч ирнэ.</li>
 </ol>
 
-  ![Payment-2](./img/payment/Payment-2.png)
-  ![Payment-3](./img/payment/Payment-3.png)
+  ![en-Payment-2](./img/payment/en-Payment-2.png)
+  ![en-Payment-3](./img/payment/en-Payment-3.png)
 
 <hr></hr>
 
@@ -31,7 +31,7 @@ sidebar_position: 13
     <li><b>Төлбөр төлөх</b> товчийг дарснаар <b>Төлбөрийн нөхцөл</b> болон <b>eBarimt төрөл</b> гэсэн хэсгүүд гарч ирэх бөгөөд өөрт тохирох хэлбэрийг сонгон төлбөрөө төлнө.</li>
 </ol>
 
-  ![Payment-4](./img/payment/Payment-4.png)
+  ![en-Payment-4](./img/payment/en-Payment-4.png)
 
 <hr></hr>
 
@@ -47,7 +47,7 @@ sidebar_position: 13
 Таны бичиж өгсөн үнийн дүнгээс хэрэглээ тань давсан тохиолдолд таны бүртгэлтэй э-мэйл хаяг руу сануулга мэйл очих болно.
 :::
 
-  ![Payment-5](./img/payment/Billing-alarm-1.png)
+  ![en-Payment-5](./img/payment/en-Billing-alarm-1.png)
 
 <hr></hr>
 
@@ -59,13 +59,13 @@ sidebar_position: 13
 </ol>
 
 
-  ![Payment-6](./img/payment/Voucher-list.png)
+  ![en-Payment-6](./img/payment/en-Voucher-list.png)
 
 ## Төлбөр хэрхэн бодогддог вэ?
 
 Хэрэглэгч та <a href='https://cloud.mn'>cloud.mn</a> веб хуудасны **Төлбөр** цэс рүү хандаж төлбөр бодох хэсэг рүү орно. Үүнд өөрийн хэрэглэхийг хүссэн хэмжээг оруулж сарын төлбөр хэд гарах тухай барагцаалах боломжтой.
 
-  ![Payment-7](./img/payment/en-cloudmn-bill.png)
+  ![en-Payment-7](./img/payment/en-cloudmn-bill.png)
 
 Cloud.mn нь Pay-As-You-Go буюу хэрэглэснээрээ төлбөр төлөх загвараар ажилладаг. Өөрөөр хэлбэл та өөрийн виртуал серверийг унтраасан үед төлбөр бодогдохгүй гэсэн үг юм. Ингэснээр хэрэглэгчдээс урьдчилсан байдлаар их зардал гарах эсвэл гэрээ хэлцэл хийх гэх мэт хугацаа, санхүүгийн зарцуулагдах зүйлс байхгүй болж байна гэсэн үг юм.
 
