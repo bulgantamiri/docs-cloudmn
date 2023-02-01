@@ -23,19 +23,19 @@ Simplhost or web hosting to simplify the Documentation will be called "Simplehos
 
 ![Simplehost-2](./img/simplehost/Simplehost-2.png)
 
-3. **Simplehost** шинээр үүсгэсний дараа үр дүн дараах байдлаар харагдана.
+3. Once your **Simplehost** deploys, you can view at the URL at detail page.
 
 ![Simplehost-3](./img/simplehost/Simplehost-3.png)
 
-4. Үүсгэсэн **Simplehost** дээр дарж домайн нэр бүхий веб холбоосоор хандаж орсны дараа үндсэн хуудас харагдах болно.
+4. After clicking on the generated Simplehost to access the web link with the domain name, the main page will be displayed.
 
 ![Simplehost-4](./img/simplehost/Simplehost-4.png)
 
-5. Үндсэн хуудасны filemanager товч дээр дарж веб холбоосоор үсэрсний дараа нэвтрэх хэсэгт **simplehost үүсгэхдээ оруулж өгсөн хэрэглэгчийн нэр, нууц үгийг** оруулна.
+5. You can then access the **file manager and database using the username and password** you created.
 
 ![Simplehost-5](./img/simplehost/Simplehost-5.png)
 
-6. **Хуулах** товч дээр дарж хост хийх вебийн файлуудыг хуулж өгнө. Zip файл хуулсан бол задлах шаардлагатай.
+6. Click the **Copy** button to copy the web files to be hosted. If the zip file is copied, it needs to be unzipped..
 
 ![Simplehost-6](./img/simplehost/Simplehost-6.png)
 
