@@ -35,46 +35,46 @@ Simplhost or web hosting to simplify the Documentation will be called "Simplehos
 
 ![Simplehost-5](./img/simplehost/Simplehost-5.png)
 
-6. Click the **Copy** button to copy the web files to be hosted. If the zip file is copied, it needs to be unzipped..
+6. Click the **Copy** button to copy the web files to be hosted. If the zip file is copied, it needs to be unzipped.
 
 ![Simplehost-6](./img/simplehost/Simplehost-6.png)
 
-7. Хуулж өгсөн хавтасны нэрийг simplehost-ын домайн нэрний араас бичиж веб холбоосоор хандана.
+7. Access the web link by writing the name of the copied folder after the simplehost domain name.
 
-- Жишээ нь: **simplehost.cloud.mn/wordpress/**
+- Ex: **simplehost.cloud.mn/wordpress/**
 
 ![Simplehost-7](./img/simplehost/Simplehost-7.png)
 
-8. Үндсэн хуудасны phpMyAdmin товч дээр дарж веб холбоосоор үсэрсний дараа **simplehost үүсгэхдээ оруулж өгсөн хэрэглэгчийн нэр, нууц үгийг** оруулна. Server талбарыг хоосон орхино.
+8. After clicking the phpMyAdmin button on the main page, jump to the web link and **enter the username and password you entered when creating simplehost**. Leave the Server field blank.
 
 ![Simplehost-8](./img/simplehost/Simplehost-8.png)
 
-9. Өгөгдлийн сантай холбогдохын тулд **phpMyAdmin-н серверийн холбоос**ыг ашиглана.
+9. Use the **phpMyAdmin server link** to connect to the database..
 
 ![Simplehost-9](./img/simplehost/Simplehost-9.png)
 
-10. Wordpress вэб сайтын **админы тохиргоог** оруулна.
+10. Enter **WordPress website admin settings**.
 
 ![Simplehost-10](./img/simplehost/Simplehost-11.png)
 
-11. Wordpress вэб сайт руу **админ эрхээр хандаж** орно.
+11. Access the **Wordpress website as an admin**.
 
 ![Simplehost-11](./img/simplehost/Simplehost-12.png)
 
-12. Wordpress вэб сайт руу админ эрхээр хандаж орсоны дараа үр дүн дараах байдлаар харагдана.
+12. After logging into the Wordpress website with admin rights, the result will look like this.
 
 ![Simplehost-12](./img/simplehost/Simplehost-13.png)
 
-## Simplehost-г өөрийн домайн хаягтай холбох
+## How to Manage Domains in Simplehost
 
-1. Өөрийн домайн хаягаа simplehost-тай холбож ашиглахын тулд **домайнаа оруулж нэмэх** товчин дээр дарна.
+1. To use your domain address with simplehost, enter your domain and click the **Add button**.
 
 ![Simplehost-13](./img/simplehost/Simplehost-10.png)
 
-2. Мөн тухайн домайны **A рекорд** үүсгэж өгнө.
+2. **Add A record** on your DNS servers.
 
 ![Simplehost-14](./img/simplehost/domain-2.png)
 
-3. Үр дүн дараах байдлаар харагдана.
+3. It appears as follows.
 
 ![Simplehost-14](./img/simplehost/domain-3.png)
