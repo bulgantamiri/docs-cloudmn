@@ -23,7 +23,7 @@ One project will be automatically created for each person who creates an account
 
 ## How to create a project?
 
-### Төсөл үүсгэх
+### Create a project
 
 1. Click on the **Project** section of the **Account menu** on the left-hand side of the user console. 
 
@@ -57,37 +57,38 @@ Replace the existing project with the newly created project.
 
 ![Project-6](./img/project/Project-5.png)
 
-1. Enter the **Instances** menu in the **Virtual Server** menu. 
+1. Enter the **Instances** menu in the **Virtual Server** menu. To create a new server, click the Create button. 
 
 ![Project-_](./img/instance/Instance-Create.png)
 
-2. Гарч ирэх шинэ цонхонд тухайн сервертэй холбоотой мэдээлэл болон үзүүлэлтүүдийг сонгох шаардлагатай. Эхлээд **Үйлдлийн систем**-ийг сонгоно. 
+2. In the new window that appears, you need to select information and parameters related to the server. First choose **Operation System**. 
 :::info 
-Хэрвээ та Windows сервер үүсгэхийг хүсэж байгаа бол info@cloud.mn-рүү хүсэлт гаргах шаардлагатай.
+If you want to create a windows server, you need to send a request to info@cloud.mn.
 :::
 
 ![Project-8](./img/instance/Image-list.png)
 
-3. Үйлдлийн систем сонгосны дараа **Машины төрөл** буюу vCPU, vRAM сонгоно. Машины төрөл нь үндсэн 4 хэсэгт хуваагддаг.
+3. After selecting the operating system, select the server type or size (vCPU, vRAM). Server types are divided into 4 main categories.
 
-- **Cloud** - Энгийн хэрэглэгчдэд зориулсан сонголт бөгөөд энгийн хэрэглээ, блог, статик веб, тестийн орчин, санах  ойн cache хадгалалт, жижиг систем, энгийн database ажиллуулахад тохиромжтой серверийн төрөл юм.
-- **General** - Онлайн худалдаа, мэдээний сайт гэх мэт илүү өндөр ачаалал авдаг, найдвартай ажиллагаа шаардсан системүүд ажиллуулахад тохиромжтой серверийн төрөл юм.
-- **Memory** - Илүү хурд болон ачаалал даах төрөл. Өндөр ачаалал бүхий өгөгдлийн сангийн систем, их хэмжээний ачаалал авдаг санах ой их шаардагддаг систем ажиллуулахад тохиромжтой серверийн төрөл юм.
-- **Compute** - Илүү тооцоолон бодох төрөлд багтдаг, CI/CD application build хийх, видео зурагтай холбоотой процесс хийх, машин сургалт гэх мэт тооцоолон бодох функц ихтэй программ ажиллуулах тохиромжтой серверийн төрөл юм.
+- **Basic server** - an option for simple use, it is a type of server suitable for simple applications, blogs, static web, test environment, memory cache storage, small systems and simple database.
+- **General server** - a type of server that is suitable for running systems that require high traffic and reliability, such as online shopping and news site.
+- **Memory server** - more speed and load handling type. This type of server is suitable for running high-load database systems and memory-intensive systems that take a lot of load.
+- **Compute server** - a type of server that is more computational, suitable for running applications with a lot of computational power, such as CI/CD application building, video processing, machine learning, etc.
 
 ![Project-9](./img/instance/Flavor-list.png)
 
-4. Бусад мэдээлэл
+4. Other information
 
-- **Серверийн нэр** буюу виртуал серверийн нэрийг өгнө.
-- **Хандах эрх** талбарт оруулсан хэрэглэгчийн нэр, нууц үгийг ашиглаж серверлүүгээ SSH хандалт хийх боломжтой. Мөн хэрэглэгчийн үүсгэсэн SSH түлхүүрийн тусламжтай серверлүүгээ хандаж болдог. Серверлүүгээ нэвтрэх талаар <a href="/userguide/connect-to-instance">Сервертэй холбогдох</a> хэсгээс уншина уу.
-- **Дискийн хэмжээ** дээр тухай серверт хэрэглэгдэх виртуал дискний хэмжээг оруулна.
-- **Сүлжээ** дээр хэрэглэгч Private сүлжээний IP хаяг ашиглах боломжтой. Эсвэл **Автоматаар IP оноох** сонголтыг идэвхжүүлснээр cloud.mn тухайн үүсгэж буй серверт Public IP хаяг оноож өгөх болно. Тохиргооны тухай дэлгэрэнгүй <a href="/userguide/network#автоматаар-ip-оноох-болон-private-сүлжээний-харьцуулалт">Автоматаар-ip-оноох-болон-private-сүлжээний-харьцуулалт</a> хэсгээс уншина уу.
-- **Портын тохиргоо** дээр хэрэглэгч өөрийн портын тохиргоог сонгоно. Энэ нь тухайн сервер хэрэглэгчийн сонгосон портын тохиргоо дээр бичигдсэн дүрмүүдийг мөрдөнө. Портын тохиргооны тухайн дэлгэрэнгүйг <a href="/userguide/security">Портын тохиргоонууд</a> хэсгээс уншина уу.
-- Бүх тохиргоог сонгосны дараа тухайн сервер тасралтгүй ажиллахад сард гарах мөнгөн дүнг бодож харуулна.
+- Give the **name of the server** or the name of the virtual server.
+- **SSH access** to the server can be done with the username and password entered in the access rights field. It is also possible to access the server with the help of a keypair created by the user. For access to your server, see <a href="/userguide/connect-to-instance">Connecting to Server</a>
+- Under **Disk size**, enter the size of the virtual disk to be used for that server.
+- On the **network**, you can use the Private network IP. Alternatively, by enabling the automatic IP assignment option, the CLOUD server will assign a Public IP address to the creating server. Auto Assign Ip vs Private network for details on configuration <a href="/userguide/network#автоматаар-ip-оноох-болон-private-сүлжээний-харьцуулалт">Auto Assign Ip vs Private network</a>
+- In Port Settings, you select your Security Group. The server will follow the port rules listed in the selected Security Group, see Security Groups for details on Port Configuration <a href="/userguide/security">Security Groups</a>
+
+- After selecting all the settings, in the server parameters section, the estimated amount of money that the server will cost in a month of continuous operation will be displayed.
 
 ![Project-10](./img/instance/Amount.png)
 
-Бүх тохиргоо болон үнийн дүнг нягталж үзсэний дараа **Үүсгэх** товчийг дарснаар таны виртуал сервер үүснэ.
+After reviewing all settings and pricing, click the **Create** button to create your virtual server.
 
 ![Project-10](./img/instance/Instance.png)
