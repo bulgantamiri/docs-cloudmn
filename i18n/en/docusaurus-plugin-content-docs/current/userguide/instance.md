@@ -12,14 +12,14 @@ sidebar_position: 1
 
 1. **Виртуал сервер** цэсээс **Сервер** цэсрүү орно.
 
-![Instance](./img/instance/Instance.png)
+![Instance](./img/instance/en-Instance.png)
 
 2. Серверийг шинээр үүсгэхдээ **Үүсгэх** товчийг дарна. Гарч ирэх шинэ цонхонд тухайн сервертэй холбоотой мэдээлэл болон үзүүлэлтүүдийг сонгох шаардлагатай. Эхлээд **Үйлдлийн систем**-ийг сонгоно. 
 :::info 
 **Хэрвээ та Windows сервер үүсгэхийг хүсэж байгаа бол <a href='mailto:info@cloud.mn'>info@cloud.mn</a>-рүү хүсэлт гаргах шаардлагатай.**
 :::
 
-![Image type](./img/instance/Image-list.png)
+![Image type](./img/instance/en-Image-list.png)
 
 3. Үйлдлийн систем сонгосны дараа **Машины төрөл** буюу vCPU, vRAM сонгоно. Машины төрөл нь үндсэн 4 хэсэгт хуваагддаг.
 
@@ -28,7 +28,7 @@ sidebar_position: 1
 - **Memory** - Илүү хурд болон ачаалал даах төрөл. Өндөр ачаалал бүхий өгөгдлийн сангийн систем, их хэмжээний ачаалал авдаг санах ой их шаардагддаг систем ажиллуулахад тохиромжтой серверийн төрөл юм.
 - **Compute** - Илүү тооцоолон бодох төрөлд багтдаг, CI/CD application build хийх, видео зурагтай холбоотой процесс хийх, машин сургалт гэх мэт тооцоолон бодох функц ихтэй программ ажиллуулах тохиромжтой серверийн төрөл юм.
 
-![Image type](./img/instance/Flavor-list.png)
+![Image type](./img/instance/en-Flavor-list.png)
 
 4. Бусад мэдээлэл
 
@@ -39,18 +39,18 @@ sidebar_position: 1
 - **Портын тохиргоо** дээр хэрэглэгч өөрийн портын тохиргоог сонгоно. Энэ нь тухайн сервер хэрэглэгчийн сонгосон портын тохиргоо дээр бичигдсэн дүрмүүдийг мөрдөнө. Портын тохиргооны тухайн дэлгэрэнгүйг <a href="/userguide/security">Портын тохиргоонууд</a> хэсгээс уншина уу.
 - Бүх тохиргоог сонгосны дараа тухайн сервер тасралтгүй ажиллахад сард гарах мөнгөн дүнг бодож харуулна.
 
-![Project-10](./img/instance/Amount.png)
+![Project-10](./img/instance/en-Amount.png)
 
 Бүх тохиргоо болон үнийн дүнг нягталж үзсэний дараа **Үүсгэх** товчийг дарснаар таны виртуал сервер үүснэ.
 
-![Image type](./img/instance/Instance-Create-Confirm.png)
+![Image type](./img/instance/en-Instance-Create-Confirm.png)
 
 
 <hr></hr>
 
 ## Сервер дээрх үйлдлүүд
 
-  ![Image type](./img/instance/Instance-actions.png)
+  ![Image type](./img/instance/en-Instance-actions.png)
 
 ### Серверийг дахин ачаалуулах
 
@@ -98,7 +98,7 @@ sidebar_position: 1
   <li>Машины төрөл хэсгээс өөрт тохирсон төрлийг сонгох.</li>
 </ul>
 
-  ![Image type](./img/instance/Instance-resize.png)
+  ![Image type](./img/instance/en-Instance-resize.png)
 
 <ul>
   <li><b>Засах</b> товчийг дарах.</li>
@@ -122,7 +122,7 @@ sidebar_position: 1
   <li>Устгах товчин дээр дарснаар мөн IP-г устгах боломжтой.</li>
 </ol>
 
-  ![Image type](./img/instance/Instance-interface.png)
+  ![Image type](./img/instance/en-Instance-interface.png)
 
 <hr></hr>
 
@@ -141,7 +141,7 @@ sidebar_position: 1
   <li>Тогтмол хаяг холбох талбараас оноох тогтмол хаягаа сонгоод <b>Залгах</b> товчийг дарах.</li>
 </ol>
 
-  ![Image type](./img/instance/Instance-associate.png)
+  ![Image type](./img/instance/en-Instance-associate.png)
 
 <hr></hr>
 
@@ -155,7 +155,7 @@ sidebar_position: 1
   <li>Харин салгах товчин дээр дарснаар дискийг тухайн серверээс салгах болно.</li>
 </ol>
 
-  ![Image type](./img/instance/Instance-volume-manage.png)
+  ![Image type](./img/instance/en-Instance-volume-manage.png)
 
 <hr></hr>
 
@@ -171,4 +171,4 @@ sidebar_position: 1
   <li>Тохиргооны товчин дээр дарснаар тухайн тохиргооны портуудыг удирдах боломжтой</li>
 </ol>
 
-  ![Image type](./img/instance/Instance-sg-manage.png)
+  ![Image type](./img/instance/en-Instance-sg-manage.png)
