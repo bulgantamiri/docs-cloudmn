@@ -42,90 +42,89 @@ When Private Network is created, it is created empty without any **Subnet**, and
 
 <ol start='3'>
     <li>Click the <b>Create Subnet</b> button.</li>
-    <li>Шинээр <b>дэд сүлжээ</b> үүсгэхэд доор талбаруудыг заавал оруулах шаардлагатай.</li>
+    <li>The following fields are required to create a new <b>Subnet</b>.</li>
     <ol>
-        <li><b>Нэр</b> - Тухайн дэд сүлжээний нэр</li>
-        <li><b>Сүлжээний хаяг</b> - Тухайн дэд сүлжээ ямар IP хаягийн pool-тай байхыг зааж өгнө. Сүлжээний prefix буюу Mask заавал зааж өгөх шаардлагатай. Жишээ нь 192.168.1.0/24</li>
-        <li><b>Гарцын IP</b> - Тухайн дэд сүлжээнд гарцын IP/Gateway IP/ тохируулах. Жишээ нь 192.168.1.1</li>
+        <li><b>Subnet Name</b> - The name of the Subnet</li>
+        <li><b>Network address</b> - Specifies which IP address pool the Subnet will have. Network prefix or Mask must be specified. For example: 192.168.1.0/24</li>
+        <li><b>Gateway IP</b> - Set the Gateway IP of the Subnet. For example: 192.168.1.1</li>
     </ol>
-    <li>Дээрх талбаруудыг оруулаад <b>Үүсгэх</b> товчийг дарж үүсгэх.</li>
+    <li>Enter the above fields and click the <b>Create button</b>.</li>
 </ol>
 
   ![Network-5](./img/network/Network-5.png)
 
 <hr></hr>
 
-### Private сүлжээ устгах
+### Delete Private Network
 
 <ol>
-    <li>Сүлжээнүүд цэс рүү орох</li>
-    <li>Устгах сүлжээг сонгож үйлдэл хэсгээс <b>Delete</b> товчийг дарах</li>
+    <li>Select Network from the Network table and delete it with the <b>Delete</b> button.</li>
 </ol>
 
-:::caution Анхааруулга
-Сүлжээ устгахын тулд дэд сүлжээнүүд болон ашиглагдаж байгаа порт зэргийг бүгдийг нь устгасан байх шаардлагатай.
+:::caution Warning
+To delete the network, you must delete all the subnets and ports in use.
 :::
 
   ![Network-6](./img/network/Network-6.png)
 
 <hr></hr>
 
-### Автоматаар IP оноох болон Private сүлжээний харьцуулалт
+### Auto Assign Ip vs Private network
 
-Сервер үүсгэх явцад сүлжээ талбарт default-р Автоматаар IP оноох сонгогдсон байдаг. Автоматаар IP оноох сонгосон үед тухайн сервер анхнаасаа Public IP хаягтай үүсдэг ба ямар нэг Private сүлжээнд холбогдохгүй гэсэн тохиргоо юм. Харин Private сүлжээнд сервер үүсгэх тохиолдолд Сүлжээ талбарын Автоматаар IP оноох сонголтыг идэвхгүй болгож Private сүлжээ сонгон тухайн серверийг уг сүлжээ дотор үүсгэх боломжтой. Private сүлжээнд байрших серверүүд хоорондоо дотоод сүлжээний хаягаар холбогдох боломжтой байдаг. Харин түүнийг Public IP-тай болгох тухай Тогтмол хаягууд (Floating IP) хэсгээс дэлгэрэнгүй харна уу.
+During instance creation, the Network field is selected, and this field is set to Auto Assign IP by default. When Auto Assign IP is selected, the Instance is initially created with a Public IP address and will not connect to any Private network. However, in the case of creating an Instance in a Private network, you can disable Auto Assign IP in the Network field and select a Private network to create the Instance in that network. Instances located in a private network can communicate with each other through local network addresses. However, see the Floating IP section for more information about making it a Public IP.
 
 <hr></hr>
 
-## Чиглүүлэгч (Router)
+## Router
 
-Чиглүүлэгч нь Routing, NAT гэх мэт Virtual Layer 3 үйлчилгээ үзүүлдэг.
+Router provides Virtual layer 3 services such as Routing and NAT.
 
   ![Router-1](./img/network/Router-1.png)
 
-### Чиглүүлэгч үүсгэх
+### Create a Router
 
 <ol>
-    <li><b>Виртуал сервер</b> цэсний <b>Чиглүүлэгч</b> цэсрүү орох</li>
-    <li><b>Үүсгэх</b> товч дээр дарах үед шинэ диалог цонх гарч ирнэ.</li>
-    <li>Гарч ирэх диалог цонх доорх талбаруудаас бүрдэнэ.</li>
+    <li>Enter the <b>Router</b> menu from the <b>Virtual Server</b> menu.</li>
+    <li>A new dialog box will appear when you click the <b>Create</b> Routers button.</li>
+    <li>A window with fields in the dialog appears.</li>
     <ol>
-        <li><b>Нэр</b> - Тухайн чиглүүлэгчийн нэр</li>
-        <li><b>Дэлгэрэнгүй</b> - Чиглүүлэгийн тайлбар</li>
-        <li><b>Гадаад сүлжээ</b> - Гадаад сүлжээ тохируулсан үед идэвхжүүлэх шаардлагатай.</li>
-        <li><b>Админы төлөв</b> - Тухайн чиглүүлэгч админы эрхээр асаах эсэх</li>
+        <li><b>Name</b> - The name of Router(Required).</li>
+        <li><b>Description</b> - Description of the router.</li>
+        <li><b>External Network</b> - Must be enabled when an external network is configured.</li>
+        <li><b>Admin state up</b> - Whether to turn on the Router with admin rights.</li>
     </ol>
-    <li>Дээрх талбаруудыг оруулаад <b>Үүсгэх</b> товчийг дарж үүсгэх.</li>
+    <li>After entering the fields, click the <b>Create</b> button in the lower right corner of the dialog.</li>
 </ol>
 
   ![Router-2](./img/network/Router-2.png)
 
-### Чиглүүлэгч устгах
+### Delete the Router
 
 <ol>
-    <li><b>Виртуал сервер</b> цэсний <b>Чиглүүлэгч</b> цэсрүү орох</li>
-    <li>Устгах гэж буй чиглүүлэгчийн текст дээр дарж дэлгэрэнгүй мэдээлэл харуулах цонхруу орох.</li>
-    <li>Интерфэйс талбар луу орох.</li>
-    <li>Жагсаалт дээрх бүх интерфэйсүүдийг устгах.</li>
-    <li>Устгах гэж буй чиглүүлэгчийн Үйлдэл баганад байрлах <b>Устгах</b> товчийг дарах</li>
-    <li>Гарч ирэх диалог цонхны баруун доод буланд байрлах <b>Устгах</b> товчийг дарж устгана.</li>
+    <li>Enter the <b>Router</b> menu from the <b>Virtual Server</b> menu.</li>
+    <li>Click on the text of the router you want to delete to enter the detailed information window.</li>
+    <li>Go to Interface tab.</li>
+    <li>Remove all interfaces from the list.</li>
+    <li>Press the <b>Delete</b> button of the Router to be deleted.</li>
+    <li>Click the <b>Delete</b> Router button in the lower right corner of the dialog that appears.</li>
 </ol>
 
   ![Router-3](./img/network/Router-3.png)
 
-### Чиглүүлэгч дээр интерфэйс нэмэх
+### Add an Interface to the Router
 
 <ol>
-    <li><b>Виртуал сервер</b> цэсний <b>Чиглүүлэгч</b> цэсрүү орох</li>
-    <li>Хүснэгтээс интерфэйс нэмэх чиглүүлэгчийн текст дээр дарж дэлгэрэнгүй мэдээлэл харуулах цонхруу орох.</li>
-    <li>Интерфэйс талбар луу орох.</li>
+    <li>Enter the <b>Router</b> menu from the <b>Virtual Server</b> menu.</li>
+    <li>Click on Add Interface Router text from the table to enter the details window.</li>
+    <li>Enter the Interfaces tab.</li>
 </ol>
 
   ![Router-4](./img/network/Router-4.png)
 
 <ol start='4'>
-    <li>Интерфэйс нэмэх товч дээр дарснаар шинэ диалог цонх гарч ирнэ.</li>
-    <li>Дэд сүлжээ хэсэгт интерфэйс болгон нэмэх дэд сүлжээг сонгох.</li>
-    <li>Баруун доод буланд байрлах <b>Үүсгэх</b> товчийг дарж интерфэйсийг нэмнэ.</li>
+    <li>Clicking the Add Interfaces button will bring up a new dialog box.</li>
+    <li>In the Subnet field, select the subnet to add as Interface.</li>
+    <li>Click the <b>Create button</b> in the lower right corner to add an interface.</li>
 </ol>
 
   ![Router-5](./img/network/Router-5.png)
