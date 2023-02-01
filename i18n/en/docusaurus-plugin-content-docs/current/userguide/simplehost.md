@@ -4,15 +4,22 @@ sidebar_position: 9
 
 # Simplehost
 
-Simplehost буюу Веб хост. Хялбарчлах үүднээс цаашид уг гарын авлагад "Simplehost" хэмээн нэрлэх болно.
+Simplhost or web hosting to simplify the Documentation will be called "Simplehost".
 
-## PHP суурьтай Simplehost үүсгэх
+## Create Simplehost
 
-1. Хэрэглэгчийн console хэсгийн зүүн талд байрлах **Simplehost** цэс рүү орно.
+1. Left on the left hand side of Consumer Console **Simplehost** to menu.
 
 ![Simplehost-1](./img/simplehost/Simplehost-1.png)
 
-2. **Simplehost** шинээр үүсгэхдээ **Үүсгэх** товчийг дарна. Гарч ирэх шинэ цонхноос PHP-г сонгож тухайн үүсгэх гэж буй хостын тохиргооны мэдээллийг оруулж **Үүсгэх** товчийг дарна.
+2. Click <b>Create</b> App button. Simplehost presents several configuration. You can configure the following options:
+<ul>
+    <li><b>Name</b> - Simplehost called name (be lowercase).</li>
+    <li><b>Database</b> - Default mysql database name.</li>
+    <li><b>Database root password</b> - Default mysql root password.</li>
+    <li><b>Username</b> - Default file manager and database username.</li>
+    <li><b>Password</b> - Default file manager and database password</li>
+</ul>
 
 ![Simplehost-2](./img/simplehost/Simplehost-2.png)
 
