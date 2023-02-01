@@ -4,53 +4,53 @@ sidebar_position: 4
 
 # Snapshots
 
-Snapshot гэдэг серверийн өөрчлөлтийг хадгалахыг хэлдэг. Backup-ийн зориулалтаар ашиглаж болдог. Гэхдээ backup-с ялгаатай нь snapshot-н хэмжээний харьцангуй бага байдаг мөн дискэнд гарсан өөрчлөлтүүдийг л хадгалдаг юм.
+Snapshot refers to saving changes to the server. Can be used for backup purposes. However, unlike backup, the size of snapshot backup is relatively small and only the changes made to the disk are saved.
 
-## Snapshots үйлдлүүд
+## Snapshots actions
 
-### Snapshot үүсгэх
+### Create a snapshot
 
 :::note Заавар
-Volume дотроос Snapshot үүсгэдэг. <a href='./volume#виртуал-дискийн-хуулбарыг-хадгалах-snapshot'>Үүсгэх заавар</a>.
+Creates a Snapshot from the Volume. <a href='./volume#виртуал-дискийн-хуулбарыг-хадгалах-snapshot'>Instructions for creation</a>.
 :::
 
 ### Snapshot устгах
 
 <ol>
-    <li>Устгах гэж буй snapshot-н сонгож Үйлдэл хэсгээс Устгах товчийг дарна.</li>
+    <li>Click on the 3 dots in the Action column of the snapshot you want to delete, then click the Delete Snapshot button.</li>
 </ol>
 
   ![Snapshot-1](./img/snapshot/Snapshot-1.png)
 
 <ol start='2'>
-    <li>Snapshot-г устгах дараах цонх нээгдэх ба Устгах товчийг дарснаар устах үйлдэл амжилттай болно.</li>
+    <li>The following window for deleting Snapshot will open, click the Delete Snapshot button and the deletion will be successful.
+</li>
 </ol>
 
   ![Snapshot-2](./img/snapshot/Snapshot-2.png)
 
 <hr></hr>
 
-### Snapshot-г Сервер байдлаар асаах
+### Launch Snapshot as an Instance
 
 <ol>
-    <li>Виртуал сервер цэсний Snapshot нөөцлөлт цэсрүү орох</li>
-    <li>Асаахыг хүссэн Snapshot-г сонгож Сервер үүсгэх товчийг дарах</li>
-    <li>Сервер үүсгэх товчийг дарснаар шинэ диалог цонх гарч ирэх ба дараах талбаруудыг бөглөнө.</li>
+    <li>Enter the Snapshots menu in the Storage menu.</li>
+    <li>Select the Snapshot you want to launch and click the Launch as Instance button.</li>
+    <li>Click Launch as Instance and a new dialog will appear. and fill in the following fields.</li>
     <ul>
-        <li>Серверийн нэр</li>
-        <li>Серверийн машины төрөл</li>
-        <li>Хандах эрх</li>
-        <li>Дискийн хэмжээг зааж өгөх</li>
+        <li>Server name - Name of the Instance to be created</li>
+        <li>Flavor type - Choose the amount to create</li>
+        <li>Authentication - Select how to connect to the Instance</li>
+        <li>Volume Size - specify the size of the hard disk</li>
     </ul>
-    <li>Диалогын баруун доод буландах Үүсгэх товчийг дарах.</li>
+    <li>Click the <b>Create</b> button in the lower right corner of the dialog.</li>
 </ol>
 
-:::tip Зөвлөгөө
-Үүсгэсэн серверээ Вирутал сервер цэсний **Сервер** цэсрүү орж харах боломжтой.
+:::tip Tip
+You can view the created Instance by going to the **Instances** menu in the Compute menu...
 :::
 
   ![Snapshot-3](./img/snapshot/Snapshot-3.png)
 
-### Snapshot дээр төлбөр бодогдох уу?
-
-Хэрэглэгч гараас snapshot авсан тохиолдолд мөнгө тооцдоггүй харин эрсдэлээс сэргийлсэн өдөр болгон автоматаар snapshot авах үйлдэл нь төлбөртэй юм.
+### Will there be a charge for Snapshot?
+Users are not charged for manual snapshots, but automatic snapshots are paid for every de-risked day.
