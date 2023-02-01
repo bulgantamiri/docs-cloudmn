@@ -4,55 +4,54 @@ sidebar_position: 7
 
 # Fixed address (Floating IP)
 
-## Тогтмол хаяг
+## Floating IP
 
-Тогтмол хаяг нь Public IP хаяг нөөцлөх боломжийг олгоно. Private сүлжээний хаягтай үүссэн серверийг Public IP хаягтай болгохын тулд **Тогтмол хаяг**-ийг ашигладаг бөгөөд уг IP хаягийг салгаж өөр серверт холбох боломжтой байдаг.
+Floating IP allows you to reserve a Public IP address. It is used to make the Instance created on the Private Network have a Public IP address, and it is possible to separate the IP address and connect it to another Instance.
 
   ![Floating-1](https://ics-doc-images.s3.ap-east-1.amazonaws.com/network/network-floating-ip.gif)
 
 <hr></hr>
 
-### Тогтмол хаяг үүсгэх
+### Create a floating IP address
 
 <ol>
-    <li><b>Виртуал сервер</b> цэсээс <b>Тогтмол хаягууд</b> цэсрүү орох.</li>
-    <li><b>Үүсгэх</b> товч дээр дарснаар шинэ диалог цонх гарч ирнэ.</li>
-    <li>Дэлгэрэнгүй хэсэгт тайлбарыг оруулна.</li>
-    <li>Баруун доод буланд байрлах <b>Үүсгэх</b> товчийг дарснаар Тогтмол хаяг үүснэ.</li>
+    <li>Enter the <b>Floating IPs</b> menu from the <b>Virtual Server</b> menu.</li>
+    <li>Clicking on the <b>Create<b> button will bring up a new dialog box.</li>
+    <li>Enter the Description field.</li>
+    <li>Click the <b>Create<b> button in the lower right corner to create a Floating IP.</li>
 </ol>
 
   ![Floating-2](./img/floating/Floating-IP-1.png)
 
 <hr></hr>
 
-### Тогтмол хаяг устгах
+### Release floating IP address
 
 <ol>
-    <li><b>Виртуал сервер</b> цэсээс <b>Тогтмол хаягууд</b> цэс рүү орох.</li>
-    <li>Устгах гэж буй хаягийн үйлдэл мөрөнд байрлах устгах товчийг дарах.</li>
-    <li>Устгах товчийг дарснаар гарч ирэх диалог цонх дээрх Delete товчийг дарна.</li>
+    <li>Enter the <b>Floating IPs</b> menu from the <b>Virtual Server</b> menu.</li>
+    <li>Press the <b>Delete</b> button on the right side of the button located in the Action line of the IP address to be released.</li>
+    <li>Click the Release Floating IP button and click the Delete IP button on the dialog that appears.</li>
 </ol>
 
   ![Floating-3](./img/floating/Floating-IP-2.png)
 
 <hr></hr>
 
-### Тогтмол хаягийг сервертэй холбох
+### Associate a Floating IP address with an Instance
 
-Тогтмол хаягийг сервертэй холбохдоо хоёр аргаар холбох боломжтой.
-:::tip Зөвлөгөө
+There are two ways to connect a Floating IP address to an Instance.
+:::tip Tips
 <ul>
-    <li>Арга 1: <a href='/userguide/instance#серверт-floating-ip-хаяг-холбох-associate-floating-ip'>Серверт тогтмол хаяг нэмэх</a></li>
-    <li>Арга 2: Тогтмол хаяг цэсээс холбох</li>
+    <li>Method 1: <a href='/userguide/instance#серверт-floating-ip-хаяг-холбох-associate-floating-ip'>Add a Floating IP address to the Instance.</a></li>
+    <li>Method 2: Connect from the Floating IP menu.</li>
 </ul>
 :::
 
 <ol>
-    <li><b>Виртуал сервер</b> цэсээс <b>Тогтмол хаягууд</b> цэс рүү орох.</li>
-    <li>Хүснэгтээс холбох гэж буй тогтмол хаягийн ард байрлах <b>Залгах</b> товч дээр дарах.</li>
-    <li>Гарч ирэх диалог цонхноос Тогтмол хаяг хэсэг холбох хаягийг зааж өгнө.</li>
-    <li>Уягдах хаягууд хэсэгт холболт хийх серверийг IP хаягийг сонгох</li>
-    <li>Баруун доод буланд байрлах <b>Үүсгэх</b> товчийг дарснаар тухайн хаяг сервертэй уягдана.</li>
+    <li>Enter the <b>Floating IP</b> menu from the <b>Virtual Server</b> menu.</li>
+    <li>Click the <b>Associate</b> button in the Action line of the IP address you want to connect from the table.</li>
+    <li>In the new dialog that appears, select the IP address of the Instance to be connected from the Port to the associated field.</li>
+    <li>Click the <b>Create</b> button in the lower right corner to bind to that Instance.</li>
 </ol>
 
   ![Floating-4](./img/floating/Floating-IP-3.png)
