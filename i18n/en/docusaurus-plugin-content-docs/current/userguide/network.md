@@ -4,44 +4,44 @@ sidebar_position: 6
 
 # Network
 
-## Сүлжээ
+## Network
 
-Сүлжээ цэсээс Private сүлжээ үүсгэх болон удирдах боломжтой.
+You can create and manage Private networks from the Network menu.
 
   ![Network-1](./img/network/Network-1.png)
 
 <hr></hr>
 
-### Private сүлжээ үүсгэх
+### Create a Private Network
 
 <ol>
-    <li><b>Үүсгэх</b> товч дээр дарах</li>
-    <li>Private сүлжээ үүсгэх шинэ диалог цонх гарч ирэх ба <b>Нэр</b> талбар дээр үүсгэх сүлжээний нэрийг оруулах</li>
-    <li><b>Үүсгэх</b> товч дээр дарж Private сүлжээ үүсгэнэ. Private сүлжээнд байрших серверүүд хоорондоо дотоод сүлжээний хаягаар холбогдох боломжтой байдаг. Харин түүнийг Public IP хаягтай болгох тухай <a href='./floating'>Тогтмол хаяг (Floating IP)</a> хэсгээс дэлгэрэнгүй харна уу.</li>
+    <li>Click the <b>Create</b> Network button</li>
+    <li>A new dialog box for creating a Private Network will appear, and in the <b>Name</b> field, enter the name of the network to be created</li>
+    <li>Click the <b>Create</b> button to create a Private network. Instances located in a private network can communicate with each other through local network addresses. However, see the <a href='./floating'>Floating IP</a> section for more information about making it a Public IP.</li>
 </ol>
 
   ![Network-2](./img/network/Network-2.png)
 
 <hr></hr>
 
-Private сүлжээ нь үүсэхдээ ямар нэг <b>дэд сүлжээ</b> байхгүй хоосон үүсдэг ба дэд сүлжээгүйгээр сервер асаах боломжгүй байдаг.
+When Private Network is created, it is created empty without any **Subnet**, and Instance cannot be started without Subnet.
 
-### Private сүлжээнд дэд сүлжээ үүсгэх
+### Create a Private Network Subnet
 
 <ol>
-    <li>Тухайн Private сүлжээний нэр дээр дарж орох</li>
+    <li>Click on the Private Network text.</li>
 </ol>
 
   ![Network-3](./img/network/Network-3.png)
 
 <ol start='2'>
-    <li><b>Дэд сүлжээнүүд</b> хэсгийг сонгож орох</li>
+    <li>Select the <b>Subnets</b> tab.</li>
 </ol>
 
   ![Network-4](./img/network/Network-4.png)
 
 <ol start='3'>
-    <li><b>Үүсгэх</b> товч дээр дарах</li>
+    <li>Click the <b>Create Subnet</b> button.</li>
     <li>Шинээр <b>дэд сүлжээ</b> үүсгэхэд доор талбаруудыг заавал оруулах шаардлагатай.</li>
     <ol>
         <li><b>Нэр</b> - Тухайн дэд сүлжээний нэр</li>
