@@ -4,61 +4,60 @@ sidebar_position: 12
 
 # Project
 
-## Төсөл гэж юу вэ?
+## What is a project?
+Project means sharing the server and financial management part that you are using with others. The project includes server, disk, network, port settings, IP addresses, WAF, SSH keys, backups, etc., and allows other people (developers) access to these resources. It will also be possible to send and view payment information by connecting the information of the financial or payment staff.
 
-Төсөл гэдэг нь өөрийн ашиглаж байгаа серверийн болон санхүүгийн удирдлагын хэсгийг бусадтай хувааж ашиглахыг хэлнэ. Төсөл нь дотроо сервер, SSH түлхүүр, үйлдлийн системүүд, диск, snapshot, нөөцлөлт, сүлжээнүүд, портын тохиргоонууд, чиглүүлэгчид, тогтмол хаягууд гэх зүйлүүдийг агуулдаг ба бусад хүмүүс (хөгжүүлэгчдэд) энэ нөөц рүү хандах эрхийг олгож байгаа юм. Мөн санхүүгийн буюу төлбөр төлөх ажилтны мэдээллийг холбож төлбөрийг мэдээллийг илгээх, харах боломжтой.
+When you create a server, create a new project and create your server on that project, you can add the following permissions to each project. Project Rights:
 
-Та сервер үүсгэхдээ шинэ төсөл үүсгэж тус төсөл дээр серверээ үүсгэснээр тус бүрийн төсөл дээр дараах эрхүүдээс нэмэх боломжтой болно. Төслийн эрхүүд:
+- **Owner - the person who originally created the project**
+- **Payer - the person who pays for the project**
+- **User - developer and user of the project**. It includes three types of people. 
 
-- **Эзэмшигч - төслийг анх үүсгэсэн хүн**
-- **Төлбөр төлөгч - төслийн төлбөр төлөх хүн**
-- **Хэрэглэгч - төслийн хөгжүүлэгч, хэрэглэгч** гэсэн гурван төрлийн эрх байна.
+The purpose of creating a project is to separate the roles of those involved in server administration.
 
-Төсөл үүсгэх зорилго нь серверийн удирдлагад оролцож буй хүмүүсийн үүргийг ялгахад оршино.
-
-Жишээ нь: Хэрвээ та үйлчилгээний төлбөр төлөгч биш бол төлбөр төлж байгаа гишүүнийг урьснаар нэхэмжлэх зөвхөн төлбөр төлөгчийн э-мэйл хаяг руу очих боломжтой. Өөрөөр хэлбэл өөр эзэмшигчийн олон тооны сервер танд бүртгэлтэй байгаа бол сервер тус бүрийн төлбөр тухайн төслийн төлбөр төлөгч бүрд очиж эзэмшигчид илүү хялбар байдлыг бий болгож байгаа юм.
+For example: If you are not a paying member of the service, you can invite a paying member to go to the billing-only payer email address. In other words, if you have a large number of servers from different owners, the payment for each server goes to each payer of the project, making it easier for the owner.
 
 :::info
-Cloud.mn дээр бүртгэл үүсгэсэн хүн бүрт нэг төсөл автоматаар үүснэ.
+One project will be automatically created for each person who creates an account.
 :::
 
-## Төсөл хэрхэн үүсгэх вэ?
+## How to create a project?
 
 ### Төсөл үүсгэх
 
-1. **Миний хэсэг** цэсээс **Төсөл** цэс рүү орох. 
+1. Click on the **Project** section of the **Account menu** on the left-hand side of the user console. 
 
 ![Project-1](./img/project/Project-1.png)
 
-2. **Төсөл үүсгэх** товч дээр дарж төслийн нэр, тайлбар, төслийн зорилго мэдээллүүдийг оруулж **Үүсгэх** товчийг дарна.
+2. Click on the **Create Project** button, enter the relevant information and click the Create button.
 
 ![Project-2](./img/project/Project-create.png)
 
-### Төслийн хяналтын самбар
+### Project dashboard
 
-Үүсгэсэн төсөл дээр дарж орсноор төслийн талаарх дэлгэрэнгүй мэдээлэл болон төсөлд оролцох эрхтэй бусад гишүүдийн мэдээлэл гарч ирнэ.
+By clicking on the created project, detailed information about the project and information about other members who have the right to participate in the project will be displayed.
 
 ![Project-3](./img/project/Project-2.png)
 
 :::tip
-Төслийн гишүүнийг **хэрэглэгчийг э-мэйлээр урих** эсвэл **хэрэглэгч үүсгэж урих** гэсэн хоёр аргаар урих боломжтой. 
+There are two ways to invite a project member: **Invite a user by email** or **invite them by creating a user**.
 :::
 
-**Гишүүн урих** товчийг дарснаар урих хүний э-мэйл хаягийг бичих талбар болон түүний үүргийг сонгож **Урих** товчийг дарна. Урьж буй хэрэглэгч нь заавал <a href='https://cloud.mn'>cloud.mn</a> дээр бүртгүүлсэн байх шаардлагатай бөгөөд урилгыг хүлээн авснаар төслийн эрх идэвхэжнэ. 
+By clicking the **Invite member** button, check the field for writing the inviter's e-mail address and his role and click the **Invite** button. The inviting user must be registered on <a href='https://cloud.mn'>cloud.mn</a>, and the project rights will be activated upon acceptance of the invitation.
 
 ![Project-4](./img/project/Project-4.png)
 
-Харин хэрэглэгч үүсгэж урихдаа урих хүний нэвтрэх э-мэйл хаяг, нууц үг болон түүний төслийн үүргийг сонгож **Урих** товчийг дарна.
+But when you create and invite a user, select the invitee's login e-mail address, password, and project role, and click the Invite button.
 
 ![Project-5](./img/project/Project-3.png)
 
-## Шинээр үүсгэсэн төсөл дээрээ хэрхэн сервер үүсгэх вэ?
+## How to create a server in the newly created project?
 
-Одоогийн байгаа төслөө шинээр үүсгэсэн төслөөрөө солино.
+Replace the existing project with the newly created project.
 
 ![Project-6](./img/project/Project-5.png)
 
-1. **Виртуал сервер** цэсээс **Сервер** цэс рүү орно. Сервер шинээр үүсгэхдээ **Үүсгэх** товчийг дарна. 
+1. Enter the **Instances** menu in the **Virtual Server** menu. 
 
 ![Project-_](./img/instance/Instance-Create.png)
 
