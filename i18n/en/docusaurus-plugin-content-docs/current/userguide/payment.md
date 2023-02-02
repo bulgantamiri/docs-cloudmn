@@ -6,16 +6,16 @@ sidebar_position: 13
 
   ![en-Payment-1](./img/payment/en-Payment-1.png)
 
-### Төлбөрийн мэдээлэл
+### Payment Information
 
 <ol>
-    <li><b>Миний хэсэг</b> цэсээс <b>Төлбөр</b> цэс рүү орох үед таны төлбөрийн мэдээлэл гарч ирнэ.</li>
-    <li><b>Төлбөрийн мэдээлэл</b> талбар дээр таны одоогийн хэрэглэж буй серверийн үнийн мэдээлэл гарч ирнэ.</li>
-    <li><b>Нийт ваучер</b> талбар дээр таны бүртгэл дээр байгаа нийт ваучерын мэдээлэл гарч ирнэ.</li>
-    <li><b>Ваучер</b> талбар нь хөнгөлөлтийн кодоо оруулах хэсэг юм.</li>
-    <li><b>Хэрэглээний түүх</b> талбар дээр таны хэрэглэж буй Сервер, Диск, IP хаяг зэрэг хэрэглээнүүдийн дэлгэрэнгүй мэдээлэл, нэр, хэмжээ, эхэлсэн огноо дууссан огноо мэдээллүүд харагдана.</li>
-    <li><b>Нэхэмжлэл</b> талбар дээр таны төлөх ёстой үнийн дүнгийн хураангуй мэдээлэл гарч ирнэ.</li>
-    <li><b>Нэхэмжлэлийн түүх</b> талбар дээр таны өмнөх саруудын төлсөн төлбөрийн хураангуй мэдээлэл гарч ирнэ.</li>
+    <li>Your payment information will appear in the <b>Billing section</b> of the "Account" menu.</li>
+    <li>In the <b>Billing Information</b> field, the price of the server you are currently using will be displayed.</li>
+    <li>The <b>Total Vouchers</b> field displays the total voucher information on your account.</li>
+    <li>The <b>Voucher</b> field is where you enter your discount code.</li>
+    <li>In the <b>Usage History</b> field, you can see the details of your usages such as Volume, Instance, IP, name, size, start date and end date.</li>
+    <li>A summary of the amount you owe will appear in the <b>Invoice</b> field.</li>
+    <li>A summary of your previous months' payments will appear in the <b>Billing History</b> field.</li>
 </ol>
 
   ![en-Payment-2](./img/payment/en-Payment-2.png)
@@ -23,57 +23,57 @@ sidebar_position: 13
 
 <hr></hr>
 
-### Төлбөр төлөх
+### To Pay
 
 <ol>
-    <li><b>Нэхэмжлэл</b> талбар дээрх <b>Төлбөр төлөх</b> товчийг дарснаар таны нэхэмжлэлийн дэлгэрэнгүй мэдээлэл гарна.</li>
-    <li><b>Нэхэмжлэл татах</b> товчийг дарж нэхэмжлэлийг .pdf хэлбэрээр татаж авах боломжтой.</li>
-    <li><b>Төлбөр төлөх</b> товчийг дарснаар <b>Төлбөрийн нөхцөл</b> болон <b>eBarimt төрөл</b> гэсэн хэсгүүд гарч ирэх бөгөөд өөрт тохирох хэлбэрийг сонгон төлбөрөө төлнө.</li>
+    <li>Click on the <b>Pay</b> button in the <b>Invoice</b> field to view your invoice details.</li>
+    <li>Click the <b>Download Invoice</b> button and your invoice will be displayed in .pdf format and available for download.</li>
+    <li>By clicking the <b>Pay</b> button, the <b>Terms of payment</b> and <b>eBarimt type</b> sections will appear, and you can choose the payment method that suits you.</li>
 </ol>
 
   ![en-Payment-4](./img/payment/en-Payment-4.png)
 
 <hr></hr>
 
-### Төлбөрийн сануулга
+### Payment Reminder
 
 <ol>
-    <li><b>Хяналтын самбар</b> цэс рүү орох.</li>
-    <li>Одоогийн төлбөр талбар хэсгээс <b>Төлбөрийн сануулга</b> товч дээр дарна.</li>
-    <li>Гарч ирэх диалог цонх дээр Дүн хэсэгт өөрийн төлөх ёстой үнийн дүнгийн дээд хэмжээ болон Дэлгэрэнгүй хэсэгт талбарыг хамт бичиж <b>Үүсгэх</b> товчийг дарж үүсгэнэ.</li>
+    <li>Go to the <b>Dashboard</b> menu</li>
+    <li>Click the <b>Billing Alarm</b> button in the <b>Current Bill</b> field section.</li>
+    <li>In the dialog box that appears, enter the maximum amount you want to pay in the <b>Amount</b> section and the field in the Details section and click the <b>Create</b> button.</li>
 </ol>
 
-:::note мэдээлэл
-Таны бичиж өгсөн үнийн дүнгээс хэрэглээ тань давсан тохиолдолд таны бүртгэлтэй э-мэйл хаяг руу сануулга мэйл очих болно.
+:::note 
+A reminder email will be sent to your registered email address if your usage exceeds the amount you entered.
 :::
 
   ![en-Payment-5](./img/payment/en-Billing-alarm-1.png)
 
 <hr></hr>
 
-### Ваучер
+### Voucher
 
 <ol>
-    <li><b>Миний хэсэг</b> цэсээс <b>Төлбөр</b> цэс рүү орох</li>
-    <li><b>Ваучер</b> талбар дээрх <b>Жагсаалт</b> товчийг дарснаар таны идэвхжүүлсэн ваучер кодын дэлгэрэнгүй мэдээлэл гарч ирнэ.</li>
+    <li>Go to the <b>Billing</b> menu from the <b>Account</b> menu</li>
+    <li>Click the <b>List</b> button on the <b>Voucher</b> field to display the details of your activated voucher code.</li>
 </ol>
 
 
   ![en-Payment-6](./img/payment/en-Voucher-list.png)
 
-## Төлбөр хэрхэн бодогддог вэ?
+## How are fees calculated?
 
-Хэрэглэгч та <a href='https://cloud.mn'>cloud.mn</a> веб хуудасны **Төлбөр** цэс рүү хандаж төлбөр бодох хэсэг рүү орно. Үүнд өөрийн хэрэглэхийг хүссэн хэмжээг оруулж сарын төлбөр хэд гарах тухай барагцаалах боломжтой.
+As a user, log in to <a href='https://cloud.mn'>cloud.mn</a> system and click on the **Calculator** Icon  in the upper right corner to enter the payment system. You can enter the resources you want to use and calculate how much the monthly payment will be.
 
   ![en-Payment-7](./img/payment/en-cloudmn-bill.png)
 
-Cloud.mn нь Pay-As-You-Go буюу хэрэглэснээрээ төлбөр төлөх загвараар ажилладаг. Өөрөөр хэлбэл та өөрийн виртуал серверийг унтраасан үед төлбөр бодогдохгүй гэсэн үг юм. Ингэснээр хэрэглэгчдээс урьдчилсан байдлаар их зардал гарах эсвэл гэрээ хэлцэл хийх гэх мэт хугацаа, санхүүгийн зарцуулагдах зүйлс байхгүй болж байна гэсэн үг юм.
+Cloud.mn operates on a Pay-As-You-Go model. In other words, you won't be charged when your virtual server is turned off. In this way, there are no more time and money-consuming things, such as preliminary high costs or contracts.
 
-### vCPU болон vRAM-ний төлбөрийн хувьд
+### Charges for vRam and vCpu
 
-vCPU болон vRAM-ний төлбөрийн хувьд ажилласан цагаар бодогддог ба та тухайн серверийг унтраасан тохиолдолд төлбөр бодогдохгүй.
+For vRam and vCpu, billing is based on hours worked and not if you shut down the Instance.
 
-| vCPU(Ширхэг) | Сарын төлбөр(₮) |
+| vCPU(Count) | Monthly Fee(₮) |
 | ------- | --------------- |
 |    1    |      12'000     |
 
@@ -83,10 +83,11 @@ vCPU болон vRAM-ний төлбөрийн хувьд ажилласан ц�
 
 <hr></hr>
 
-### Snapshot болон Дискний төлбөрийн хувьд
+### Fee for Snapshot and Volume
 
-Snapshot болон дискний хувьд ашиглаж буй хэмжээнээсээ хамаарч сарын төлбөр нь бодогдоно.
+For Snapshot and Volume, the monthly fee is calculated based on the amount used.
 
+<<<<<<< HEAD
 <table>
   <tr>
     <th>Төрөл</th>
@@ -113,20 +114,33 @@ Snapshot болон дискний хувьд ашиглаж буй хэмжээ
     <td>300</td>      
   </tr>  
 </table>
+=======
+
+| Volume(GB) | Monthly Fee(₮) |
+| -------- | --------------- |
+|  1 HDD   |       300       |
+|  1 SSD   |       800       |
+
+Snapshot-н хувьд үнэ бодох хүснэгт
+
+| Volume(GB) | Monthly Fee(₮) |
+| ------- | --------------- |
+|    1    |      200     |
+>>>>>>> 48f294e68d8cd4f82684bfd1991ca8c5bc003f9f
 
 <hr></hr>
 
-### Public IP хаяг
+### Public IP address
 
-| IP(Ширхэг) | Сарын төлбөр(₮) |
+| IP(Count) | Monthly Fee(₮) |
 | ---- | ------------------ |
 |  1   |       5'000        |
-|  Нэмэлт хаяг   |       30'000       |
+|  Additional IP   |       30'000       |
 
 <hr></hr>
 
-### Чиглүүлэгч
+### Router
 
-| IP(Ширхэг) | Сарын төлбөр(₮) |
+| IP(Count) | Monthly Fee(₮) |
 | ---- | ------------------ |
-|  1   |       20'000        |
+|  1   |       30'000        |

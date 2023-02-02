@@ -4,91 +4,95 @@ sidebar_position: 12
 
 # Project
 
-## Төсөл гэж юу вэ?
+## What is a project?
+Project means sharing the server and financial management part that you are using with others. The project includes server, disk, network, port settings, IP addresses, WAF, SSH keys, backups, etc., and allows other people (developers) access to these resources. It will also be possible to send and view payment information by connecting the information of the financial or payment staff.
 
-Төсөл гэдэг нь өөрийн ашиглаж байгаа серверийн болон санхүүгийн удирдлагын хэсгийг бусадтай хувааж ашиглахыг хэлнэ. Төсөл нь дотроо сервер, SSH түлхүүр, үйлдлийн системүүд, диск, snapshot, нөөцлөлт, сүлжээнүүд, портын тохиргоонууд, чиглүүлэгчид, тогтмол хаягууд гэх зүйлүүдийг агуулдаг ба бусад хүмүүс (хөгжүүлэгчдэд) энэ нөөц рүү хандах эрхийг олгож байгаа юм. Мөн санхүүгийн буюу төлбөр төлөх ажилтны мэдээллийг холбож төлбөрийг мэдээллийг илгээх, харах боломжтой.
+When you create a server, create a new project and create your server on that project, you can add the following permissions to each project. Project Rights:
 
-Та сервер үүсгэхдээ шинэ төсөл үүсгэж тус төсөл дээр серверээ үүсгэснээр тус бүрийн төсөл дээр дараах эрхүүдээс нэмэх боломжтой болно. Төслийн эрхүүд:
+- **Owner - the person who originally created the project**
+- **Payer - the person who pays for the project**
+- **User - developer and user of the project**. It includes three types of people. 
 
-- **Эзэмшигч - төслийг анх үүсгэсэн хүн**
-- **Төлбөр төлөгч - төслийн төлбөр төлөх хүн**
-- **Хэрэглэгч - төслийн хөгжүүлэгч, хэрэглэгч** гэсэн гурван төрлийн эрх байна.
+The purpose of creating a project is to separate the roles of those involved in server administration.
 
-Төсөл үүсгэх зорилго нь серверийн удирдлагад оролцож буй хүмүүсийн үүргийг ялгахад оршино.
-
-Жишээ нь: Хэрвээ та үйлчилгээний төлбөр төлөгч биш бол төлбөр төлж байгаа гишүүнийг урьснаар нэхэмжлэх зөвхөн төлбөр төлөгчийн э-мэйл хаяг руу очих боломжтой. Өөрөөр хэлбэл өөр эзэмшигчийн олон тооны сервер танд бүртгэлтэй байгаа бол сервер тус бүрийн төлбөр тухайн төслийн төлбөр төлөгч бүрд очиж эзэмшигчид илүү хялбар байдлыг бий болгож байгаа юм.
+For example: If you are not a paying member of the service, you can invite a paying member to go to the billing-only payer email address. In other words, if you have a large number of servers from different owners, the payment for each server goes to each payer of the project, making it easier for the owner.
 
 :::info
-Cloud.mn дээр бүртгэл үүсгэсэн хүн бүрт нэг төсөл автоматаар үүснэ.
+One project will be automatically created for each person who creates an account.
 :::
 
-## Төсөл хэрхэн үүсгэх вэ?
+## How to create a project?
 
-### Төсөл үүсгэх
+### Create a project
 
-1. **Миний хэсэг** цэсээс **Төсөл** цэс рүү орох. 
+1. Click on the **Project** section of the **Account menu** on the left-hand side of the user console. 
 
 ![Project-1](./img/project/en-Project-1.png)
 
-2. **Төсөл үүсгэх** товч дээр дарж төслийн нэр, тайлбар, төслийн зорилго мэдээллүүдийг оруулж **Үүсгэх** товчийг дарна.
+2. Click on the **Create Project** button, enter the relevant information and click the Create button.
 
 ![Project-2](./img/project/en-Project-2.png)
 
-### Төслийн хяналтын самбар
+### Project dashboard
 
-Үүсгэсэн төсөл дээр дарж орсноор төслийн талаарх дэлгэрэнгүй мэдээлэл болон төсөлд оролцох эрхтэй бусад гишүүдийн мэдээлэл гарч ирнэ.
+By clicking on the created project, detailed information about the project and information about other members who have the right to participate in the project will be displayed.
 
 ![Project-3](./img/project/en-Project-3.png)
 
 :::tip
-Төслийн гишүүнийг **хэрэглэгчийг э-мэйлээр урих** эсвэл **хэрэглэгч үүсгэж урих** гэсэн хоёр аргаар урих боломжтой. 
+There are two ways to invite a project member: **Invite a user by email** or **invite them by creating a user**.
 :::
 
-**Гишүүн урих** товчийг дарснаар урих хүний э-мэйл хаягийг бичих талбар болон түүний үүргийг сонгож **Урих** товчийг дарна. Урьж буй хэрэглэгч нь заавал <a href='https://cloud.mn'>cloud.mn</a> дээр бүртгүүлсэн байх шаардлагатай бөгөөд урилгыг хүлээн авснаар төслийн эрх идэвхэжнэ. 
+By clicking the **Invite member** button, check the field for writing the inviter's e-mail address and his role and click the **Invite** button. The inviting user must be registered on <a href='https://cloud.mn'>cloud.mn</a>, and the project rights will be activated upon acceptance of the invitation.
 
 ![Project-4](./img/project/en-Project-4.png)
 
-Харин хэрэглэгч үүсгэж урихдаа урих хүний нэвтрэх э-мэйл хаяг, нууц үг болон түүний төслийн үүргийг сонгож **Урих** товчийг дарна.
+But when you create and invite a user, select the invitee's login e-mail address, password, and project role, and click the Invite button.
 
 ![Project-5](./img/project/en-Project-5.png)
 
-## Шинээр үүсгэсэн төсөл дээрээ хэрхэн сервер үүсгэх вэ?
+## How to create a server in the newly created project?
 
-Одоогийн байгаа төслөө шинээр үүсгэсэн төслөөрөө солино.
+Replace the existing project with the newly created project.
 
 ![Project-6](./img/project/en-Project-6.png)
 
-1. **Виртуал сервер** цэсээс **Сервер** цэс рүү орно. Сервер шинээр үүсгэхдээ **Үүсгэх** товчийг дарна. 
+1. Enter the **Instances** menu in the **Virtual Server** menu. To create a new server, click the Create button. 
 
 ![Project-_](./img/instance/en-Instance-Create.png)
 
-2. Гарч ирэх шинэ цонхонд тухайн сервертэй холбоотой мэдээлэл болон үзүүлэлтүүдийг сонгох шаардлагатай. Эхлээд **Үйлдлийн систем**-ийг сонгоно. 
+2. In the new window that appears, you need to select information and parameters related to the server. First choose **Operation System**. 
 :::info 
-Хэрвээ та Windows сервер үүсгэхийг хүсэж байгаа бол info@cloud.mn-рүү хүсэлт гаргах шаардлагатай.
+If you want to create a windows server, you need to send a request to info@cloud.mn.
 :::
 
 ![Project-8](./img/instance/en-Image-list.png)
 
-3. Үйлдлийн систем сонгосны дараа **Машины төрөл** буюу vCPU, vRAM сонгоно. Машины төрөл нь үндсэн 4 хэсэгт хуваагддаг.
+3. After selecting the operating system, select the server type or size (vCPU, vRAM). Server types are divided into 4 main categories.
 
-- **Cloud** - Энгийн хэрэглэгчдэд зориулсан сонголт бөгөөд энгийн хэрэглээ, блог, статик веб, тестийн орчин, санах  ойн cache хадгалалт, жижиг систем, энгийн database ажиллуулахад тохиромжтой серверийн төрөл юм.
-- **General** - Онлайн худалдаа, мэдээний сайт гэх мэт илүү өндөр ачаалал авдаг, найдвартай ажиллагаа шаардсан системүүд ажиллуулахад тохиромжтой серверийн төрөл юм.
-- **Memory** - Илүү хурд болон ачаалал даах төрөл. Өндөр ачаалал бүхий өгөгдлийн сангийн систем, их хэмжээний ачаалал авдаг санах ой их шаардагддаг систем ажиллуулахад тохиромжтой серверийн төрөл юм.
-- **Compute** - Илүү тооцоолон бодох төрөлд багтдаг, CI/CD application build хийх, видео зурагтай холбоотой процесс хийх, машин сургалт гэх мэт тооцоолон бодох функц ихтэй программ ажиллуулах тохиромжтой серверийн төрөл юм.
+- **Basic server** - an option for simple use, it is a type of server suitable for simple applications, blogs, static web, test environment, memory cache storage, small systems and simple database.
+- **General server** - a type of server that is suitable for running systems that require high traffic and reliability, such as online shopping and news site.
+- **Memory server** - more speed and load handling type. This type of server is suitable for running high-load database systems and memory-intensive systems that take a lot of load.
+- **Compute server** - a type of server that is more computational, suitable for running applications with a lot of computational power, such as CI/CD application building, video processing, machine learning, etc.
 
 ![Project-9](./img/instance/en-Flavor-list.png)
 
-4. Бусад мэдээлэл
+4. Other information
 
-- **Серверийн нэр** буюу виртуал серверийн нэрийг өгнө.
-- **Хандах эрх** талбарт оруулсан хэрэглэгчийн нэр, нууц үгийг ашиглаж серверлүүгээ SSH хандалт хийх боломжтой. Мөн хэрэглэгчийн үүсгэсэн SSH түлхүүрийн тусламжтай серверлүүгээ хандаж болдог. Серверлүүгээ нэвтрэх талаар <a href="/userguide/connect-to-instance">Сервертэй холбогдох</a> хэсгээс уншина уу.
-- **Дискийн хэмжээ** дээр тухай серверт хэрэглэгдэх виртуал дискний хэмжээг оруулна.
-- **Сүлжээ** дээр хэрэглэгч Private сүлжээний IP хаяг ашиглах боломжтой. Эсвэл **Автоматаар IP оноох** сонголтыг идэвхжүүлснээр cloud.mn тухайн үүсгэж буй серверт Public IP хаяг оноож өгөх болно. Тохиргооны тухай дэлгэрэнгүй <a href="/userguide/network#автоматаар-ip-оноох-болон-private-сүлжээний-харьцуулалт">Автоматаар-ip-оноох-болон-private-сүлжээний-харьцуулалт</a> хэсгээс уншина уу.
-- **Портын тохиргоо** дээр хэрэглэгч өөрийн портын тохиргоог сонгоно. Энэ нь тухайн сервер хэрэглэгчийн сонгосон портын тохиргоо дээр бичигдсэн дүрмүүдийг мөрдөнө. Портын тохиргооны тухайн дэлгэрэнгүйг <a href="/userguide/security">Портын тохиргоонууд</a> хэсгээс уншина уу.
-- Бүх тохиргоог сонгосны дараа тухайн сервер тасралтгүй ажиллахад сард гарах мөнгөн дүнг бодож харуулна.
+- Give the **name of the server** or the name of the virtual server.
+- **SSH access** to the server can be done with the username and password entered in the access rights field. It is also possible to access the server with the help of a keypair created by the user. For access to your server, see <a href="/userguide/connect-to-instance">Connecting to Server</a>
+- Under **Disk size**, enter the size of the virtual disk to be used for that server.
+- On the **network**, you can use the Private network IP. Alternatively, by enabling the automatic IP assignment option, the CLOUD server will assign a Public IP address to the creating server. Auto Assign Ip vs Private network for details on configuration <a href="/userguide/network#автоматаар-ip-оноох-болон-private-сүлжээний-харьцуулалт">Auto Assign Ip vs Private network</a>
+- In Port Settings, you select your Security Group. The server will follow the port rules listed in the selected Security Group, see Security Groups for details on Port Configuration <a href="/userguide/security">Security Groups</a>
+
+- After selecting all the settings, in the server parameters section, the estimated amount of money that the server will cost in a month of continuous operation will be displayed.
 
 ![Project-10](./img/instance/en-Amount.png)
 
-Бүх тохиргоо болон үнийн дүнг нягталж үзсэний дараа **Үүсгэх** товчийг дарснаар таны виртуал сервер үүснэ.
+After reviewing all settings and pricing, click the **Create** button to create your virtual server.
 
+<<<<<<< HEAD
 ![Project-10](./img/instance/en-Instance-list.png)
+=======
+![Project-10](./img/instance/Instance.png)
+>>>>>>> 48f294e68d8cd4f82684bfd1991ca8c5bc003f9f

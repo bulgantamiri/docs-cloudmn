@@ -4,171 +4,173 @@ sidebar_position: 1
 
 # Server (Instance)
 
-Виртуал сервер. Хялбарчлах үүднээс цаашид уг гарын авлагад виртуал серверийг сервер хэмээн нэрлэх болно.
+For simplicity, the instances will be referred to as a server in this guide.
 
-## Сервер үүсгэх
+## Create Instance
 
 <hr></hr>
 
-1. **Виртуал сервер** цэсээс **Сервер** цэсрүү орно.
+1. Enter the **Instances** menu in the **Virtual Server** menu. To create a new server, click the Create button.
 
 ![Instance](./img/instance/en-Instance-list.png)
 
-2. Серверийг шинээр үүсгэхдээ **Үүсгэх** товчийг дарна. Гарч ирэх шинэ цонхонд тухайн сервертэй холбоотой мэдээлэл болон үзүүлэлтүүдийг сонгох шаардлагатай. Эхлээд **Үйлдлийн систем**-ийг сонгоно. 
+2. In the new window that appears, you need to select information and parameters related to the server. First choose **Operation System**.
+
+
 :::info 
-**Хэрвээ та Windows сервер үүсгэхийг хүсэж байгаа бол <a href='mailto:info@cloud.mn'>info@cloud.mn</a>-рүү хүсэлт гаргах шаардлагатай.**
+**If you want to create a windows server, you need to send a request to <a href='mailto:info@cloud.mn'>info@cloud.mn</a>**
 :::
 
 ![Image type](./img/instance/en-Image-list.png)
 
-3. Үйлдлийн систем сонгосны дараа **Машины төрөл** буюу vCPU, vRAM сонгоно. Машины төрөл нь үндсэн 4 хэсэгт хуваагддаг.
+3. After selecting the operating system, select the server type or size (vCPU, vRAM). Server types are divided into 4 main categories.
 
-- **Cloud** - Энгийн хэрэглэгчдэд зориулсан сонголт бөгөөд энгийн хэрэглээ, блог, статик веб, тестийн орчин, санах  ойн cache хадгалалт, жижиг систем, энгийн database ажиллуулахад тохиромжтой серверийн төрөл юм.
-- **General** - Онлайн худалдаа, мэдээний сайт гэх мэт илүү өндөр ачаалал авдаг, найдвартай ажиллагаа шаардсан системүүд ажиллуулахад тохиромжтой серверийн төрөл юм.
-- **Memory** - Илүү хурд болон ачаалал даах төрөл. Өндөр ачаалал бүхий өгөгдлийн сангийн систем, их хэмжээний ачаалал авдаг санах ой их шаардагддаг систем ажиллуулахад тохиромжтой серверийн төрөл юм.
-- **Compute** - Илүү тооцоолон бодох төрөлд багтдаг, CI/CD application build хийх, видео зурагтай холбоотой процесс хийх, машин сургалт гэх мэт тооцоолон бодох функц ихтэй программ ажиллуулах тохиромжтой серверийн төрөл юм.
+- **Basic server** - an option for simple use, it is a type of server suitable for simple applications, blogs, static web, test environment, memory cache storage, small systems and simple database.
+- **General server** - a type of server that is suitable for running systems that require high traffic and reliability, such as online shopping and news site.
+- **Memory server** - more speed and load handling type. This type of server is suitable for running high-load database systems and memory-intensive systems that take a lot of load.
+- **Compute** - a type of server that is more computational, suitable for running applications with a lot of computational power, such as CI/CD application building, video processing, machine learning, etc.
 
 ![Image type](./img/instance/en-Flavor-list.png)
 
-4. Бусад мэдээлэл
+4. Other information
 
-- **Серверийн нэр** буюу виртуал серверийн нэрийг өгнө.
-- **Хандах эрх** талбарт оруулсан хэрэглэгчийн нэр, нууц үгийг ашиглаж серверлүүгээ SSH хандалт хийх боломжтой. Мөн хэрэглэгчийн үүсгэсэн SSH түлхүүрийн тусламжтай серверлүүгээ хандаж болдог. Серверлүүгээ нэвтрэх талаар <a href="/userguide/connect-to-instance">Сервертэй холбогдох</a> хэсгээс уншина уу.
-- **Дискийн хэмжээ** дээр тухай серверт хэрэглэгдэх виртуал дискний хэмжээг оруулна.
-- **Сүлжээ** дээр хэрэглэгч Private сүлжээний IP хаяг ашиглах боломжтой. Эсвэл **Автоматаар IP оноох** сонголтыг идэвхжүүлснээр cloud.mn тухайн үүсгэж буй серверт Public IP хаяг оноож өгөх болно. Тохиргооны тухай дэлгэрэнгүй <a href="/userguide/network#автоматаар-ip-оноох-болон-private-сүлжээний-харьцуулалт">Автоматаар-ip-оноох-болон-private-сүлжээний-харьцуулалт</a> хэсгээс уншина уу.
-- **Портын тохиргоо** дээр хэрэглэгч өөрийн портын тохиргоог сонгоно. Энэ нь тухайн сервер хэрэглэгчийн сонгосон портын тохиргоо дээр бичигдсэн дүрмүүдийг мөрдөнө. Портын тохиргооны тухайн дэлгэрэнгүйг <a href="/userguide/security">Портын тохиргоонууд</a> хэсгээс уншина уу.
-- Бүх тохиргоог сонгосны дараа тухайн сервер тасралтгүй ажиллахад сард гарах мөнгөн дүнг бодож харуулна.
+- Give the **name of the server** or the name of the virtual server.
+- **SSH access** to the server can be done with the username and password entered in the access rights field. It is also possible to access the server with the help of a keypair created by the user. For access to your server, see <a href="/userguide/connect-to-instance">Connecting to Server</a>.
+- Under **Disk size**, enter the size of the virtual disk to be used for that server.
+- On the **Network**, you can use the Private network IP. Alternatively, by enabling the **automatic IP assignment** option, the CLOUD server will assign a Public IP address to the creating server. Auto Assign Ip vs Private network for details on configuration<a href="/userguide/network#автоматаар-ip-оноох-болон-private-сүлжээний-харьцуулалт">Auto Assign IP vs Private Network</a>.
+- In **Port Settings**, you select your Security Group. The server will follow the port rules listed in the selected Security Group, see Security Groups for details on Port Configuration <a href="/userguide/security">Security Groups</a>.
+- After selecting all the settings, in the server parameters section, the estimated amount of money that the server will cost in a month of continuous operation will be displayed.
 
 ![Project-10](./img/instance/en-Amount.png)
 
-Бүх тохиргоо болон үнийн дүнг нягталж үзсэний дараа **Үүсгэх** товчийг дарснаар таны виртуал сервер үүснэ.
+After reviewing all settings and pricing, click the **Create** button to create your virtual server.
 
 ![Image type](./img/instance/en-Instance-Create-Confirm.png)
 
 
 <hr></hr>
 
-## Сервер дээрх үйлдлүүд
+## Server Actions
 
   ![Image type](./img/instance/en-Instance-actions.png)
 
-### Серверийг дахин ачаалуулах
+### Reboot the Server
 
-Серверийг дахин ачаалуулах хийх бол тухайн серверийг сонгоод **Дахин ачаалуулах** товчийг дарна. Reboot нь 2 төрөл байдаг бөгөөд энгийн (soft reboot) болон хүчээр (hard reboot) гэж ангилагддаг. Hard-н хэрэглэгчийн серверийн процессыг хүлээхгүйгээр шууд хүчээр унтраадаг бол Soft-н хэрэглэгчийн серверийн процессыг хүлээж илүү аюулгүйгээр Reboot хийдэг байна.
-
-<hr></hr>
-
-### Серверийг унтраах 
-
-Серверийг унтраах (Shutdown) хийх бол тухайн серверийг сонгоод Унтраах(Stop) товчийг дарна.
+To reboot the server, select the server and click the **Reboot** button. There are two types of reboots, soft reboot and forced hard reboot. Hard forces immediate shutdown without waiting for the user server process, while Soft reboots more safely while waiting for the user server process.
 
 <hr></hr>
 
-### Серверийг түр зогсоох 
+### Turn off the Server(Shutdown) 
 
-Серверийн одоо ажиллаж байгаа төлвийг тэр чигээр нь хадгалж буюу унтраахгүйгээр pause авах горимыг хэлдэг. Энэ төлөвт байгаа сервер дээр төлбөр боддоггүй. Түр зогсоох гэж буй серверийг сонгоод Түр зогсоох(Suspend) товчийг дарснаар серверийг түр зогсоох боломжтой.
-
-<hr></hr>
-
-### Түр зогсоосон болон унтарсан серверийг асаах 
-
-- Түр зогсоосон буюу suspend хийсэн серверийг асаахын тулд тухайн серверийг сонгоод Сэргээх(Resume) товчийг дарна.
-- Унтарсан буюу stop хийсэн серверийг асаахын тулд тухайн серверийг сонгоод Асаах(Start) товчийг дарна.
+To shutdown the server, select the server and click Stop.
 
 <hr></hr>
 
-### Серверийг устгах 
+### Suspend the Server
 
-1. Серверийг сонгоход Delete товч идэвхжинэ. Та ямар нэг зүйл устгахдаа болгоомжтой хандах шаардлагатайг зөвлөж байна.
-2. Delete товчийг дарахад жижиг цонх гарж ирэх ба баталгаажуулах үйлдэл буюу Устгах(delete) хэмээн бичсэний дараа Сервер устах болно.
+It refers to the mode of taking a pause without shutting down or saving the current state of the server. In this state, the server is not charged, and only hard and IP are charged. You can suspend the server by selecting the server you want to suspend and clicking the **Suspend** button.
 
 <hr></hr>
 
-### Машины төрөл өөрчлөх 
+### Resume Suspended and Shutdown Servers
 
-:::caution Анхааруулга 
-Серверийн машины төрөл өөрчлөлт хийхийн тулд та заавал унтраасан байх шаардлагатай.
+- To restart a suspended server, select the server and press the **Resume** button.
+- To turn on a server that is turned off or stopped, select the server and press the **Start** button.
+
+<hr></hr>
+
+### Delete the Server 
+
+1. When the server is selected, the Delete button becomes active. We recommend that you use caution when deleting anything.
+2. When you press the Delete button, a small window will appear, and after the confirmation action or delete, the Server will be deleted.
+
+<hr></hr>
+
+### Resize the Server 
+
+:::caution  
+You must turn off the server to resize it.
 :::
 
 <ul>
-  <li><b>Виртуал сервер</b> цэсээс <b>Сервер</b> цэс рүү орно.</li>
-  <li>Хэмжээг өөрчлөх гэж буй серверийг сонгоод <b>Үйлдлүүд</b> товчийг дарах.</li>
-  <li>Гарч ирэх хэсгээс <b>Машины төрөл өөрчлөх</b> товчийг дарах.</li>
-  <li>Машины төрөл өөрчлөх товчийг дарснаар сонголтууд гарч ирнэ.</li>
-  <li>Машины төрөл хэсгээс өөрт тохирсон төрлийг сонгох.</li>
+  <li>Go to the <b>Instances</b> menu in the <b>Virtual Server</b> menu.</li>
+  <li>Select the server you want to resize and click the <b>Actions</b> button.</li>
+  <li>Click the Actions button and a drop-down menu will appear, and click the <b>Resize Server</b> button.</li>
+  <li>Click the Resize button to display the options.</li>
+  <li>Select the appropriate type from the Server Type section.</li>
 </ul>
 
   ![Image type](./img/instance/en-Instance-resize.png)
 
 <ul>
-  <li><b>Засах</b> товчийг дарах.</li>
-  <li>Серверийн хүснэгт дахин унших ба Өөрчлөлтийг баталгаажуулах товч болж өөрчлөгдсөн байх ба тухайн товчин дээр дарж баталгаажуулах шаардлагатай.</li>
-  <li>Баталгаажуулах товчийг дарж баталгаажуулалт хийснээр таны серверийн хэмжээ өөрчлөгдсөн байна.</li>
-  <li>Шаардлагатай тохиолдолд серверийг Soft Reboot буюу унтрааж асаах хэрэгтэйг анхаарна уу.</li>
+  <li>Click the <b>Edit</b> button.</li>
+  <li>When the server table changes to <b>Update button</b>, you need to click on that button to <b>Verify Size</b>.</li>
+  <li>Click the <b>Confirm</b> button to verify that your server size has been changed.</li>
+  <li>Note that if necessary, the server should be Soft Rebooted or restarted.</li>
 </ul>
 
 <hr></hr>
 
-### Интерфэйс удирдах
+### IP address management (Interface manage)
 
-Серверт олон хаяг уях, устгах зэрэг боломжийг олгодог үйлдэл юм. Хаяг нь Private, Public гэсэн сонголттойгоор нэмж болдог
+It is an action that allows the server to bind and delete multiple addresses. The address can be added as Private or Public.
 
 <ol>
-  <li><b>Виртуал сервер</b> цэсээс <b>Сервер</b> цэс рүү орно.</li>
-  <li>Public IP болон Private IP хаяг нэмэх серверийг сонгох.</li>
-  <li>Гарч ирэх хэсгээс <b>Интерфэйс удирдах</b> товчийг дарах. Ингэснээр шинэ диалог цонх гарч ирнэ.</li>
-  <li>Диалог дээрх Гадаад сүлжээ товчийг дарснаар тухайн сервер дээр шинэ Public IP хаяг нэмэгдэж орно.</li>
-  <li>Харин сонголыг өөрчлөөд дотоод сүлжээгээ сонгосон тохиолдолд Private IP хаяг нэмэгдэж орно</li>
-  <li>Устгах товчин дээр дарснаар мөн IP-г устгах боломжтой.</li>
+  <li>Go to the <b>Instances</b> section of the <b>Virtual Server</b> menu.</li>
+  <li>To add Public IP and Private IP addresses, click the Add button in the Server Actions column.</li>
+  <li>Click the Actions button and a drop-down menu will appear, and click <b>Interface Manage</b>. This will - bring up a new dialog box.</li>
+  <li>Clicking the External button on the dialog will add a new Public IP address to that server.</li>
+  <li>But if you change the option and select the internal network, the Private IP address will be added.</li>
+  <li>You can also delete an IP by clicking the delete button.</li>
 </ol>
 
   ![Image type](./img/instance/en-Instance-interface.png)
 
 <hr></hr>
 
-### Тогтмол хаяг удирдах
+### Connecting a Floating IP address to the server (Associate Floating IP)
 
-Тогтмол хаяг нь энгийн IP-г бодвол сервер устсан үед ч хэрэглэгчид үлддэг IP хаягийг хэлдэг. Тогтмол хаягийг нөөцөлж аваад тэрийгээ хүссэн сервертээ залгах байдлаар хэрэглэдэг. Жишээ нь, хэрэглэгч IP-гаа whitelist хийх зэрэг үед хамгийн хэрэгтэй сонголт юм. Энгийн хаягтай серверийн хувьд сервер нь устсан тохиолдолд өөрчлөгдөж random-оор сонгогддог.
+A fixed address or floating ip refers to an IP address that remains with you even when the server is destroyed, compared to a normal IP. Floating IP is reserved and used to connect to the desired server. For example: It is the most useful option when the user whitelists his IP. For a server with a simple address, the server is changed and selected randomly if it is deleted.
 
-:::caution Анхааруулга
-Зөвхөн Private сүлжээнд Тогтмол хаяг нэмэх боломжтой. 
+:::caution 
+Floating IP addresses can only be added to Private networks.
 :::
 
 <ol>
-  <li><b>Виртуал сервер</b> цэсээс <b>Сервер</b> цэс рүү орно.</li>
-  <li>Тогтмол хаяг нэмэх серверийг сонгоод Үйлдлүүд товчийг дарах.</li>
-  <li>Гарч ирэх хэсгээс <b>Тогтмол хаяг удирдах</b> товчийг дарах. Ингэснээр шинэ диалог цонх гарч ирнэ.</li>
-  <li>Тогтмол хаяг холбох талбараас оноох тогтмол хаягаа сонгоод <b>Залгах</b> товчийг дарах.</li>
+  <li>Go to the <b>Instances</b> section of the <b>Virtual Server</b> menu.</li>
+  <li>Click the <b>Server Actions</b> button to add a floating IP address.</li>
+  <li>Click the <b>Actions</b> button to bring up the Dropdown menu and click the <b>Floating Manage</b> button. This will bring up a new dialog box.</li>
+  <li>Select the floating IP address to be assigned from the Fixed address association field and click the <b>Associate</b> button.</li>
 </ol>
 
   ![Image type](./img/instance/en-Instance-associate.png)
 
 <hr></hr>
 
-### Диск удирдах 
+### Disk management (Volume manage) 
 
 <ol>
-  <li><b>Виртуал сервер</b> цэсээс <b>Сервер</b> цэс рүү орно.</li>
-  <li>Диск удирдах серверийг сонгоод Үйлдлүүд товчийг дарах.</li>
-  <li>Гарч ирэх хэсгээс <b>Диск удирдах</b> товчийг дарах. Ингэснээр шинэ диалог цонх гарч ирнэ.</li>
-  <li>Диск удирдах талбарт өөр серверт уяагүй дискүүд гарч ирэх бөгөөд нэмэх дискийг сонгож Болсон товчийг дарах.</li>
-  <li>Харин салгах товчин дээр дарснаар дискийг тухайн серверээс салгах болно.</li>
+  <li>Go to the <b>Instances</b> section of the <b>Virtual Server</b> menu.</li>
+  <li>Click the Actions button.</li>
+  <li>Click the Actions button to bring up a drop-down menu and click the <b>Volume manage</b> button. This will bring up a new dialog box.</li>
+  <li>In the disk management area, disks that are not connected to another server will appear, click the button to select the disk to add.</li>
+  <li>But clicking the eject button will remove the disk from that server</li>
 </ol>
 
   ![Image type](./img/instance/en-Instance-volume-manage.png)
 
 <hr></hr>
 
-### Портын тохиргоо удирдах
+### Manage port settings (Security group manage)
 
 <ol>
-  <li><b>Виртуал сервер</b> цэсээс <b>Сервер</b> цэс рүү орно.</li>
-  <li>Портын тохиргоо удирдах серверийг сонгоод Үйлдлүүд товчийг дарах.</li>
-  <li>Гарч ирэх хэсгээс удирдах товчийг дарах. Ингэснээр шинэ диалог цонх гарч ирнэ.</li>
-  <li>Талбарт залгагдсан болон залгагдаагүй портын тохиргоонууд гарч ирнэ.</li>
-  <li>Хасах тэмдэг дээр дарснаар серверээс тухайн тохиргоог салгана.</li>
-  <li>Нэмэх тэмдэг дээр дарснаар серверт тухайн тохиргоог залгана.</li>
-  <li>Тохиргооны товчин дээр дарснаар тухайн тохиргооны портуудыг удирдах боломжтой</li>
+  <li>Go to the <b>Instances</b> section of the <b>Virtual Server</b> menu.</li>
+  <li>Click the Actions button.</li>
+  <li>Click the Actions button to bring up a drop-down menu and click the <b>Security Group manage</b> button. This will bring up a new dialog box.</li>
+  <li>The field displays the attached and detached port settings</li>
+  <li>Click the <b>Minus Sign</b> to remove that setting from the server.</li>
+  <li>Click the <b>Plus Sign</b> to associate that setting with the server.</li>
+  <li>Click on the configuration button to manage the ports for that configuration.</li>
 </ol>
 
   ![Image type](./img/instance/en-Instance-sg-manage.png)
