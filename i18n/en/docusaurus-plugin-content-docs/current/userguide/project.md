@@ -91,8 +91,4 @@ If you want to create a windows server, you need to send a request to info@cloud
 
 After reviewing all settings and pricing, click the **Create** button to create your virtual server.
 
-<<<<<<< HEAD
 ![Project-10](./img/instance/en-Instance-list.png)
-=======
-![Project-10](./img/instance/Instance.png)
->>>>>>> 48f294e68d8cd4f82684bfd1991ca8c5bc003f9f
