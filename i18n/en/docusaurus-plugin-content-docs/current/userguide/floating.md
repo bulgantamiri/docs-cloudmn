@@ -42,13 +42,8 @@ Floating IP allows you to reserve a Public IP address. It is used to make the In
 There are two ways to connect a Floating IP address to an Instance.
 :::tip Tips
 <ul>
-<<<<<<< HEAD
-    <li>Арга 1: <a href='/userguide/instance#серверт-Floating-IP-хаяг-холбох-associate-floating-ip'>Серверт тогтмол хаяг нэмэх</a></li>
-    <li>Арга 2: Тогтмол хаяг цэсээс холбох</li>
-=======
     <li>Method 1: <a href='/userguide/instance#серверт-floating-ip-хаяг-холбох-associate-floating-ip'>Add a Floating IP address to the Instance.</a></li>
     <li>Method 2: Connect from the Floating IP menu.</li>
->>>>>>> 48f294e68d8cd4f82684bfd1991ca8c5bc003f9f
 </ul>
 :::
 
