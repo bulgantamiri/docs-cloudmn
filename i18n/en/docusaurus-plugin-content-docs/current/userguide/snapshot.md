@@ -20,14 +20,14 @@ Creates a Snapshot from the Volume. <a href='./volume#виртуал-диски�
     <li>Click on the 3 dots in the Action column of the snapshot you want to delete, then click the Delete Snapshot button.</li>
 </ol>
 
-  ![Snapshot-1](./img/snapshot/Snapshot-1.png)
+  ![en-Snapshot-1](./img/snapshot/en-Snapshot-1.png)
 
 <ol start='2'>
     <li>The following window for deleting Snapshot will open, click the Delete Snapshot button and the deletion will be successful.
 </li>
 </ol>
 
-  ![Snapshot-2](./img/snapshot/Snapshot-2.png)
+  ![en-Snapshot-2](./img/snapshot/en-Snapshot-2.png)
 
 <hr></hr>
 
@@ -50,7 +50,7 @@ Creates a Snapshot from the Volume. <a href='./volume#виртуал-диски�
 You can view the created Instance by going to the **Instances** menu in the Compute menu...
 :::
 
-  ![Snapshot-3](./img/snapshot/Snapshot-3.png)
+  ![en-Snapshot-3](./img/snapshot/en-Snapshot-3.png)
 
 ### Will there be a charge for Snapshot?
 Users are not charged for manual snapshots, but automatic snapshots are paid for every de-risked day.

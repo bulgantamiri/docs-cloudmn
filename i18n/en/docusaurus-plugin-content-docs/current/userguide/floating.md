@@ -21,7 +21,7 @@ sidebar_position: 7
     <li>Баруун доод буланд байрлах <b>Үүсгэх</b> товчийг дарснаар Тогтмол хаяг үүснэ.</li>
 </ol>
 
-  ![Floating-2](./img/floating/Floating-IP-1.png)
+  ![Floating-2](./img/floating/en-Floating-IP-1.png)
 
 <hr></hr>
 
@@ -33,7 +33,7 @@ sidebar_position: 7
     <li>Устгах товчийг дарснаар гарч ирэх диалог цонх дээрх Delete товчийг дарна.</li>
 </ol>
 
-  ![Floating-3](./img/floating/Floating-IP-2.png)
+  ![Floating-3](./img/floating/en-Floating-IP-2.png)
 
 <hr></hr>
 
@@ -42,7 +42,7 @@ sidebar_position: 7
 Тогтмол хаягийг сервертэй холбохдоо хоёр аргаар холбох боломжтой.
 :::tip Зөвлөгөө
 <ul>
-    <li>Арга 1: <a href='/userguide/instance#серверт-floating-ip-хаяг-холбох-associate-floating-ip'>Серверт тогтмол хаяг нэмэх</a></li>
+    <li>Арга 1: <a href='/userguide/instance#серверт-Floating-IP-хаяг-холбох-associate-floating-ip'>Серверт тогтмол хаяг нэмэх</a></li>
     <li>Арга 2: Тогтмол хаяг цэсээс холбох</li>
 </ul>
 :::
@@ -55,5 +55,5 @@ sidebar_position: 7
     <li>Баруун доод буланд байрлах <b>Үүсгэх</b> товчийг дарснаар тухайн хаяг сервертэй уягдана.</li>
 </ol>
 
-  ![Floating-4](./img/floating/Floating-IP-3.png)
+  ![Floating-4](./img/floating/en-Floating-IP-3.png)
 

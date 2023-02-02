@@ -7,7 +7,7 @@ sidebar_position: 5
 ## Security Groups
 A Security Group is a collection of Virtual Firewalls designed to control ingress (Inbound for an Instance) and outgress (Outbound for an Instance) network traffic at the port level. Virtual Firewall consists of Rules to open/close that port traffic. For example: You can make a rule to allow access to instance port 8080 from all hosts in the world or from hosts with a certain number of IP addresses.
 
-  ![sg-1](./img/security/Security-group-1.png)
+  ![sg-1](./img/security/en-Security-group-1.png)
 
 <hr></hr>
 
@@ -19,7 +19,7 @@ A Security Group is a collection of Virtual Firewalls designed to control ingres
     <li>Enter the Name and Description fields and click the Create button to create a new Security group.</li>
 </ol>
 
-  ![sg-2](./img/security/Security-group-2.png)
+  ![sg-2](./img/security/en-Security-group-2.png)
 
 <hr></hr>
 
@@ -33,7 +33,7 @@ A Security Group is a collection of Virtual Firewalls designed to control ingres
     <li>Click the Delete Security Groups button in the lower right corner of the dialog.</li>
 </ol>
 
-  ![sg-3](./img/security/Security-group-3.png)
+  ![sg-3](./img/security/en-Security-group-3.png)
 
 <hr></hr>
 
@@ -52,7 +52,7 @@ Each rule consists of fields called Port, Description, Direction, and CIDR.
     <li>CIDR - The range of IP addresses to which the rule applies.</li>
 </ul>
 
-  ![sg-4](./img/security/Security-group-4.png)
+  ![sg-4](./img/security/en-Security-group-4.png)
 
 #### Open SSH Port
 
@@ -66,7 +66,7 @@ Each rule consists of fields called Port, Description, Direction, and CIDR.
     <li>Click the Create button in the lower right corner of the dialog.</li>
 </ol>
 
-  ![sg-5](./img/security/Security-group-5.png)
+  ![sg-5](./img/security/en-Security-group-5.png)
 
 <hr></hr>
 
@@ -81,4 +81,4 @@ Each rule consists of fields called Port, Description, Direction, and CIDR.
     <li>Click the <b>Done</b> button in the lower right corner of the dialog.</li>
 </ol>
 
-  ![sg-6](./img/security/Security-group-6.png)
+  ![sg-6](./img/security/en-Security-group-6.png)

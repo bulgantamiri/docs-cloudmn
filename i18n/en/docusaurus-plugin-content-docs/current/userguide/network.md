@@ -8,7 +8,7 @@ sidebar_position: 6
 
 You can create and manage Private networks from the Network menu.
 
-  ![Network-1](./img/network/Network-1.png)
+  ![en-Network-1](./img/network/en-Network-1.png)
 
 <hr></hr>
 
@@ -20,7 +20,7 @@ You can create and manage Private networks from the Network menu.
     <li>Click the <b>Create</b> button to create a Private network. Instances located in a private network can communicate with each other through local network addresses. However, see the <a href='./floating'>Floating IP</a> section for more information about making it a Public IP.</li>
 </ol>
 
-  ![Network-2](./img/network/Network-2.png)
+  ![en-Network-2](./img/network/en-Network-2.png)
 
 <hr></hr>
 
@@ -32,13 +32,13 @@ When Private Network is created, it is created empty without any **Subnet**, and
     <li>Click on the Private Network text.</li>
 </ol>
 
-  ![Network-3](./img/network/Network-3.png)
+  ![en-Network-3](./img/network/en-Network-3.png)
 
 <ol start='2'>
     <li>Select the <b>Subnets</b> tab.</li>
 </ol>
 
-  ![Network-4](./img/network/Network-4.png)
+  ![en-Network-4](./img/network/en-Network-4.png)
 
 <ol start='3'>
     <li>Click the <b>Create Subnet</b> button.</li>
@@ -51,7 +51,7 @@ When Private Network is created, it is created empty without any **Subnet**, and
     <li>Enter the above fields and click the <b>Create button</b>.</li>
 </ol>
 
-  ![Network-5](./img/network/Network-5.png)
+  ![en-Network-5](./img/network/en-Network-5.png)
 
 <hr></hr>
 
@@ -65,7 +65,7 @@ When Private Network is created, it is created empty without any **Subnet**, and
 To delete the network, you must delete all the subnets and ports in use.
 :::
 
-  ![Network-6](./img/network/Network-6.png)
+  ![en-Network-6](./img/network/en-Network-6.png)
 
 <hr></hr>
 
@@ -79,7 +79,7 @@ During instance creation, the Network field is selected, and this field is set t
 
 Router provides Virtual layer 3 services such as Routing and NAT.
 
-  ![Router-1](./img/network/Router-1.png)
+  ![en-Router-1](./img/network/en-Router-1.png)
 
 ### Create a Router
 
@@ -96,7 +96,7 @@ Router provides Virtual layer 3 services such as Routing and NAT.
     <li>After entering the fields, click the <b>Create</b> button in the lower right corner of the dialog.</li>
 </ol>
 
-  ![Router-2](./img/network/Router-2.png)
+  ![en-Router-2](./img/network/en-Router-2.png)
 
 ### Delete the Router
 
@@ -109,7 +109,7 @@ Router provides Virtual layer 3 services such as Routing and NAT.
     <li>Click the <b>Delete</b> Router button in the lower right corner of the dialog that appears.</li>
 </ol>
 
-  ![Router-3](./img/network/Router-3.png)
+  ![en-Router-3](./img/network/en-Router-3.png)
 
 ### Add an Interface to the Router
 
@@ -119,7 +119,7 @@ Router provides Virtual layer 3 services such as Routing and NAT.
     <li>Enter the Interfaces tab.</li>
 </ol>
 
-  ![Router-4](./img/network/Router-4.png)
+  ![en-Router-4](./img/network/en-Router-4.png)
 
 <ol start='4'>
     <li>Clicking the Add Interfaces button will bring up a new dialog box.</li>
@@ -127,4 +127,4 @@ Router provides Virtual layer 3 services such as Routing and NAT.
     <li>Click the <b>Create button</b> in the lower right corner to add an interface.</li>
 </ol>
 
-  ![Router-5](./img/network/Router-5.png)
+  ![en-Router-5](./img/network/en-Router-5.png)

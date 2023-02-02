@@ -15,7 +15,7 @@ For simplicity, the instances will be referred to as a server in this guide.
     <li>By clicking on it, a new browser tab will open and you can directly access the server.</li>
 </ol>
 
-  ![Connect instance](./img/connect-to-instance/Connect-instance.png)
+  ![Connect instance](./img/connect-to-instance/en-Connect-instance.png)
 
 <hr></hr>
 
@@ -27,20 +27,20 @@ For simplicity, the instances will be referred to as a server in this guide.
     <li>A Keypair can be created when an instance is created. Also click the <b>Create Key Pair</b> button from the <b>Key pairs menu</b>.</li>
 </ol>
 
-  ![Connect instance-2](./img/connect-to-instance/Connect-instance-2.png)
+  ![Connect instance-2](./img/connect-to-instance/en-Connect-instance-2.png)
 
 <ol start='2'>
     <li>Type the name of the Keypair you want to create and click <b>Create</b>. The keypair will then be generated and the .pem file will be downloaded to your browser.</li>
 </ol>
 
-  ![Connect instance-3](./img/connect-to-instance/Connect-instance-3.png)
+  ![Connect instance-3](./img/connect-to-instance/en-Connect-instance-3.png)
 
 <ol start='3'>
     <li>Use the keypair you created. Click the enter button and a field will appear where you can enter the name and public key.</li>
     <li>Instructions on how to generate SSH-keygen will also appear.</li>
 </ol>
 
-  ![Connect instance-4](./img/connect-to-instance/Connect-instance-4.png)
+  ![Connect instance-4](./img/connect-to-instance/en-Connect-instance-4.png)
 
 <hr></hr>
 
