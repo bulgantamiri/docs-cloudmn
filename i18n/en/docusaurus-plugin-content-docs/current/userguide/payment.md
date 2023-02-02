@@ -87,15 +87,14 @@ For vRam and vCpu, billing is based on hours worked and not if you shut down the
 
 For Snapshot and Volume, the monthly fee is calculated based on the amount used.
 
-<<<<<<< HEAD
 <table>
   <tr>
-    <th>Төрөл</th>
-    <th>Диск(1 GB)</th>
-    <th>Сарын төлбөр(₮)</th>
+    <th>Type</th>
+    <th>Volume(1 GB)</th>
+    <th>Monthly Fee(₮)</th>
   </tr>
   <tr>
-    <td rowspan="2">Виртуал диск</td>
+    <td rowspan="2">Virtual disk</td>
     <td>HDD</td>
     <td>300</td>
   </tr>
@@ -114,19 +113,6 @@ For Snapshot and Volume, the monthly fee is calculated based on the amount used.
     <td>300</td>      
   </tr>  
 </table>
-=======
-
-| Volume(GB) | Monthly Fee(₮) |
-| -------- | --------------- |
-|  1 HDD   |       300       |
-|  1 SSD   |       800       |
-
-Snapshot-н хувьд үнэ бодох хүснэгт
-
-| Volume(GB) | Monthly Fee(₮) |
-| ------- | --------------- |
-|    1    |      200     |
->>>>>>> 48f294e68d8cd4f82684bfd1991ca8c5bc003f9f
 
 <hr></hr>
 
