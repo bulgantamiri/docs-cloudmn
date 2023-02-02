@@ -16,9 +16,9 @@ Floating IP allows you to reserve a Public IP address. It is used to make the In
 
 <ol>
     <li>Enter the <b>Floating IPs</b> menu from the <b>Virtual Server</b> menu.</li>
-    <li>Clicking on the <b>Create<b> button will bring up a new dialog box.</li>
+    <li>Clicking on the <b>Create</b> button will bring up a new dialog box.</li>
     <li>Enter the Description field.</li>
-    <li>Click the <b>Create<b> button in the lower right corner to create a Floating IP.</li>
+    <li>Click the <b>Create</b> button in the lower right corner to create a Floating IP.</li>
 </ol>
 
   ![Floating-2](./img/floating/en-Floating-IP-1.png)
