@@ -6,7 +6,7 @@ sidebar_position: 1
 
 For simplicity, the instances will be referred to as a server in this guide.
 
-## Сервер үүсгэх
+## Create Instance
 
 <hr></hr>
 
