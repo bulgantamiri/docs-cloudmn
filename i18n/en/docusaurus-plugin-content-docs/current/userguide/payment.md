@@ -39,7 +39,7 @@ sidebar_position: 13
 
 <ol>
     <li>Go to the <b>Dashboard</b> menu</li>
-    <li>Click the <b>Billing Alarm</b> button in the <b>Current Bill<b> field section.</li>
+    <li>Click the <b>Billing Alarm</b> button in the <b>Current Bill</b> field section.</li>
     <li>In the dialog box that appears, enter the maximum amount you want to pay in the <b>Amount</b> section and the field in the Details section and click the <b>Create</b> button.</li>
 </ol>
 
