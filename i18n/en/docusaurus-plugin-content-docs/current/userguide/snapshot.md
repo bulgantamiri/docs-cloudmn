@@ -10,11 +10,11 @@ Snapshot refers to saving changes to the server. Can be used for backup purposes
 
 ### Create a snapshot
 
-:::note Заавар
+:::note Instructions
 Creates a Snapshot from the Volume. <a href='./volume#виртуал-дискийн-хуулбарыг-хадгалах-snapshot'>Instructions for creation</a>.
 :::
 
-### Snapshot устгах
+### Delete Snapshot
 
 <ol>
     <li>Click on the 3 dots in the Action column of the snapshot you want to delete, then click the Delete Snapshot button.</li>

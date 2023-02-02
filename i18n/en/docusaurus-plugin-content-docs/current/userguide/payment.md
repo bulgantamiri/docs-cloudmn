@@ -77,15 +77,15 @@ For vRam and vCpu, billing is based on hours worked and not if you shut down the
 | ------- | --------------- |
 |    1    |      12'000     |
 
-| vRAM(GB) | Сарын төлбөр(₮) |
+| vRAM(GB) | Monthly Fee(₮) |
 | ------- | --------------- |
 |    1    |      12'000     |
 
 <hr></hr>
 
-### Fee for Snapshot and Volume
+### Fee for Snapshot, Backup and Volume
 
-For Snapshot and Volume, the monthly fee is calculated based on the amount used.
+For Snapshot, Backup and Volume, the monthly fee is calculated based on the amount used.
 
 <table>
   <tr>
