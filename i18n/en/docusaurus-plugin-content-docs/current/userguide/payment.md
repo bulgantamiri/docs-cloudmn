@@ -63,19 +63,17 @@ A reminder email will be sent to your registered email address if your usage exc
 
 ## How are fees calculated?
 
-
-
-Хэрэглэгч та <a href='https://cloud.mn'>cloud.mn</a> веб хуудасны **Төлбөр** цэс рүү хандаж төлбөр бодох хэсэг рүү орно. Үүнд өөрийн хэрэглэхийг хүссэн хэмжээг оруулж сарын төлбөр хэд гарах тухай барагцаалах боломжтой.
+As a user, log in to <a href='https://cloud.mn'>cloud.mn</a> system and click on the **Calculator** Icon  in the upper right corner to enter the payment system. You can enter the resources you want to use and calculate how much the monthly payment will be.
 
   ![en-Payment-7](./img/payment/en-cloudmn-bill.png)
 
-Cloud.mn нь Pay-As-You-Go буюу хэрэглэснээрээ төлбөр төлөх загвараар ажилладаг. Өөрөөр хэлбэл та өөрийн виртуал серверийг унтраасан үед төлбөр бодогдохгүй гэсэн үг юм. Ингэснээр хэрэглэгчдээс урьдчилсан байдлаар их зардал гарах эсвэл гэрээ хэлцэл хийх гэх мэт хугацаа, санхүүгийн зарцуулагдах зүйлс байхгүй болж байна гэсэн үг юм.
+Cloud.mn operates on a Pay-As-You-Go model. In other words, you won't be charged when your virtual server is turned off. In this way, there are no more time and money-consuming things, such as preliminary high costs or contracts.
 
-### vCPU болон vRAM-ний төлбөрийн хувьд
+### Charges for vRam and vCpu
 
-vCPU болон vRAM-ний төлбөрийн хувьд ажилласан цагаар бодогддог ба та тухайн серверийг унтраасан тохиолдолд төлбөр бодогдохгүй.
+For vRam and vCpu, billing is based on hours worked and not if you shut down the Instance.
 
-| vCPU(Ширхэг) | Сарын төлбөр(₮) |
+| vCPU(Count) | Monthly Fee(₮) |
 | ------- | --------------- |
 |    1    |      12'000     |
 
@@ -85,36 +83,35 @@ vCPU болон vRAM-ний төлбөрийн хувьд ажилласан ц�
 
 <hr></hr>
 
-### Snapshot болон Дискний төлбөрийн хувьд
+### Fee for Snapshot and Volume
 
-Snapshot болон дискний хувьд ашиглаж буй хэмжээнээсээ хамаарч сарын төлбөр нь бодогдоно.
+For Snapshot and Volume, the monthly fee is calculated based on the amount used.
 
-Дискний хувьд үнэ бодох хүснэгт
 
-| Диск(GB) | Сарын төлбөр(₮) |
+| Volume(GB) | Monthly Fee(₮) |
 | -------- | --------------- |
 |  1 HDD   |       300       |
 |  1 SSD   |       800       |
 
 Snapshot-н хувьд үнэ бодох хүснэгт
 
-| Диск(GB) | Сарын төлбөр(₮) |
+| Volume(GB) | Monthly Fee(₮) |
 | ------- | --------------- |
 |    1    |      200     |
 
 <hr></hr>
 
-### Public IP хаяг
+### Public IP address
 
-| IP(Ширхэг) | Сарын төлбөр(₮) |
+| IP(Count) | Monthly Fee(₮) |
 | ---- | ------------------ |
 |  1   |       5'000        |
-|  Нэмэлт хаяг   |       30'000       |
+|  Additional IP   |       30'000       |
 
 <hr></hr>
 
-### Чиглүүлэгч
+### Router
 
-| IP(Ширхэг) | Сарын төлбөр(₮) |
+| IP(Count) | Monthly Fee(₮) |
 | ---- | ------------------ |
 |  1   |       30'000        |
