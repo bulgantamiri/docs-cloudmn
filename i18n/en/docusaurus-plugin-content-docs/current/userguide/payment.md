@@ -135,5 +135,5 @@ Cloud.mn operates on a Pay-As-You-Go model. In other words, you won't be charged
 :::info Information
 - For vRam and vCpu, billing is based on hours worked and not if you shut down the Instance.
 - For Snapshot, Backup and Volume, the monthly fee is calculated based on the amount used.
-- ***2 and above** - In the case of 2 and above Public IP addresses connected to the same server, the first IP address will be charged 5'000₮, and each 2 and above IP addresses will be charged 30'000₮.
+- ***2 and above** - In the case of 2 and above Public IP addresses attached to the same server, the first IP address will be charged 5'000₮, and each 2 and above IP addresses will be charged 30'000₮.
 :::
