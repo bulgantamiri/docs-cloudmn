@@ -69,64 +69,71 @@ As a user, log in to <a href='https://cloud.mn'>cloud.mn</a> system and click on
 
 Cloud.mn operates on a Pay-As-You-Go model. In other words, you won't be charged when your virtual server is turned off. In this way, there are no more time and money-consuming things, such as preliminary high costs or contracts.
 
-### Charges for vRam and vCpu
-
-For vRam and vCpu, billing is based on hours worked and not if you shut down the Instance.
-
-| vCPU(Count) | Monthly Fee(₮) |
-| ------- | --------------- |
-|    1    |      12'000     |
-
-| vRAM(GB) | Monthly Fee(₮) |
-| ------- | --------------- |
-|    1    |      12'000     |
-
-<hr></hr>
-
-### Fee for Snapshot, Backup and Volume
-
-For Snapshot, Backup and Volume, the monthly fee is calculated based on the amount used.
-
+### Pricing information
 <table>
+<thead>
   <tr>
+    <th>Product</th>
     <th>Type</th>
-    <th>Volume(1 GB)</th>
+    <th>Size</th>
     <th>Monthly Fee(₮)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="10">Cloud Virtual Server</td>
+    <td>vCPU</td>
+    <td>1</td>
+    <td>12'000</td>
+  </tr>
+  <tr>
+    <td>vRAM</td>
+    <td>1 GB</td>
+    <td>12'000</td>
   </tr>
   <tr>
     <td rowspan="2">Virtual disk</td>
-    <td>HDD</td>
+    <td>1 GB (HDD)</td>
     <td>300</td>
   </tr>
   <tr>
-    <td>SSD</td>
+    <td>1 GB (SSD)</td>
     <td>800</td>
   </tr>
   <tr>
-    <td>Snapshot</td>  
-    <td>-</td>
-    <td>200</td>      
+    <td>Snapshot</td>
+    <td>1 GB (-)</td>
+    <td>200</td>
   </tr>
   <tr>
-    <td>Backup</td>  
-    <td>-</td>
-    <td>300</td>      
-  </tr>  
+    <td>Backup</td>
+    <td>1 GB (-)</td>
+    <td>300</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Public IP</td>
+    <td>1</td>
+    <td>5'000</td>
+  </tr>
+  <tr>
+    <td>*2 and above</td>
+    <td>30'000</td>
+  </tr>
+  <tr>
+    <td>Floating IP</td>
+    <td>1</td>
+    <td>30'000</td>
+  </tr>
+  <tr>
+    <td>Router</td>
+    <td>1</td>
+    <td>30'000</td>
+  </tr>
+</tbody>
 </table>
 
-<hr></hr>
-
-### Public IP address
-
-| IP(Count) | Monthly Fee(₮) |
-| ---- | ------------------ |
-|  1   |       5'000        |
-|  Additional IP   |       30'000       |
-
-<hr></hr>
-
-### Router
-
-| IP(Count) | Monthly Fee(₮) |
-| ---- | ------------------ |
-|  1   |       30'000        |
+:::info Information
+- For vRam and vCpu, billing is based on hours worked and not if you shut down the Instance.
+- For Snapshot, Backup and Volume, the monthly fee is calculated based on the amount used.
+- ***2 and above** - In the case of 2 and above Public IP addresses connected to the same server, the first IP address will be charged 5'000₮, and each 2 and above IP addresses will be charged 30'000₮.
+:::
