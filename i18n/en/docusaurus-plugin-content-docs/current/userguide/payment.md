@@ -102,12 +102,12 @@ Cloud.mn operates on a Pay-As-You-Go model. In other words, you won't be charged
   </tr>
   <tr>
     <td>Snapshot</td>
-    <td>1 GB (-)</td>
+    <td>1 GB</td>
     <td>200</td>
   </tr>
   <tr>
     <td>Backup</td>
-    <td>1 GB (-)</td>
+    <td>1 GB</td>
     <td>300</td>
   </tr>
   <tr>

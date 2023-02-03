@@ -102,12 +102,12 @@ Cloud.mn нь Pay-As-You-Go буюу хэрэглэснээрээ төлбөр �
   </tr>
   <tr>
     <td>Snapshot нөөцлөлт</td>
-    <td>1 GB (-)</td>
+    <td>1 GB</td>
     <td>200</td>
   </tr>
   <tr>
     <td>Backup нөөцлөлт</td>
-    <td>1 GB (-)</td>
+    <td>1 GB</td>
     <td>300</td>
   </tr>
   <tr>
